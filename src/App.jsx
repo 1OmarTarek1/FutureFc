@@ -50,7 +50,7 @@ const App = () => {
     return(
         
         <>
-            <Router basename={'/FutureFC'}> 
+            <Router basename={'/FutureFc'}> 
                 
                 <Headroom>
                     <Header /> 
