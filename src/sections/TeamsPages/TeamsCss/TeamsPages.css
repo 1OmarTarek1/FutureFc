@@ -1,0 +1,135 @@
+.teamSection {
+    cursor: default;
+}
+
+/*team Image*/
+.teamSection .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-bottom: var(--margin-primary);
+    overflow: hidden;
+    border: 7px solid var(--color-darkest);
+}
+.teamSection .img-wrapper img{
+    width: 100%;
+    height: auto;
+}
+
+/*team title*/
+.teamSection .section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*all trophy*/
+.teamSection .allTrophy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teamSection .allTrophy .allContent{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between   ;
+    align-items: center;
+}
+
+/*image trophy*/
+.teamSection .allTrophy .allContent img{
+    transition: all .5s;
+}
+.teamSection .allTrophy .allContent img:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+}
+.teamSection .allTrophy div:first-child img:hover{
+    filter: brightness(115%) drop-shadow(0px 0px 5px silver);
+}
+.teamSection .allTrophy div:nth-child(2) img:hover{
+    filter: brightness(115%) drop-shadow(0px 0px 5px gold);
+}
+.teamSection .allTrophy div:last-child img:hover{
+    filter: brightness(115%) drop-shadow(0px 0px 5px rgb(99, 99, 241));
+}
+
+/*txt*/
+.teamSection .allTrophy .allContent .trophytxt{
+    width: 70px;
+    height: 35px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+
+
+@media screen and (max-width:992px) {
+    .teamSection .allTrophy .allContent{
+        height: 200px;
+    }
+    .teamSection .allTrophy .trophy img {
+        width: 90px;
+        height: 130px;
+    }
+}
+@media screen and (max-width:767px) {
+    .teamSection .img-wrapper{
+        height: auto;
+    }
+    
+    .teamSection .allTrophy .allContent{
+        height: 170px;
+    }
+    .teamSection .allTrophy .trophy img {
+        width: 75px;
+        height: 115px;
+    }
+    .teamSection .allTrophy .allContent .trophytxt{
+        width: 60px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:500px) {
+    .teamSection .allTrophy .allContent{
+        height: 150px;
+    }
+    .teamSection .allTrophy .trophy img {
+        width: 67px;
+        height: 100px;
+    } 
+    .teamSection .allTrophy{
+        justify-content: space-between;
+    }
+    .teamSection .allTrophy .allContent .trophytxt{
+        width: 50px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+    
+}
+@media screen and (max-width:420px) {
+    .teamSection .allTrophy .allContent{
+        height: 115px;
+    }
+    .teamSection .allTrophy .trophy img {
+        width: 53px;
+        height: 80px;
+    } 
+    .teamSection .allTrophy{
+        justify-content: space-between;
+    }
+    .teamSection .allTrophy .allContent .trophytxt{
+        width: 40px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+}

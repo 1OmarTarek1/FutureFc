@@ -1,0 +1,112 @@
+.playerCard {
+    flex: 1 20%;
+    padding: 10px;
+    margin-bottom: 1%;
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-darkest);
+    border-radius: 10px;
+    cursor: default;
+    transition: all .3s;
+} 
+.playerCard p{
+    transition: all .3s;
+} 
+/*img and name*/
+.playerCard .img-and-name{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #44444491;
+}
+.playerCard .playerImg-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}   
+.playerCard .playerImg-wrapper img{
+    width: 100%;
+    height: auto;
+    border-radius: 3px 3px 0 0;
+    filter: brightness(80%);
+    transition: all .3s;
+}
+.playerImg-wrapper .plyer-effect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    backdrop-filter: blur(5px);
+    border-radius: 3px 3px 0 0;
+    opacity: 0;
+    transition: all .3s;
+}
+.playerImg-wrapper .plyer-effect span{
+    padding: 2.5px 10px;
+    font-size: 15px;
+    font-weight: var(--font-weight-bold);
+    border-radius: 5px;
+    background-color: var(--color-primary);
+}
+.playerImg-wrapper:hover .plyer-effect{
+    opacity: 1;
+}
+/*img and name*/
+
+/*playerCard HOVER*/
+.playerCard:hover{
+    border: 1px solid var(--color-primary);
+    filter: drop-shadow(0px 0px 5px var(--color-primary));
+    transition-delay: .1s;
+    
+}
+.playerCard:hover img{
+    filter: brightness(100%);
+    transition-delay: .1s;
+}
+.playerCard:hover p{
+    color: var(--color-primary);
+    transition-delay: .2s;
+
+}
+/*playerCard HOVER*/
+
+
+/*text*/
+.playerCard .player-text{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+/*text*/
+
+
+
+@media screen and (max-width:992px) {
+    .playerCard {
+        flex: 1 48%;
+    } 
+}
+@media screen and (max-width:575px) {
+    .playerCard {
+        flex: 1 100%;
+        margin-bottom: 20px;
+    } 
+}
+@media screen and (max-width:345px) {
+    .playerCard .player-text{
+        font-size: 11px;
+    } 
+    .playerCard .playerName{
+        font-size: 11px;
+    } 
+}

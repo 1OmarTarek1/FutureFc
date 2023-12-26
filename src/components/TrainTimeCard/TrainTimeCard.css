@@ -1,0 +1,288 @@
+
+
+.training-time-card .card-wrapper-related-games{
+    direction: rtl  ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 0px;
+    position: relative;
+    border-bottom: 1px solid var(--color-dark);
+    background-color: var(--color-darkest);
+    border-radius: 0px;
+    margin: 0px;
+    transition: .4s ;
+}
+
+.training-time-card .card-wrapper-related-games:hover{
+    border-color: var(--color-primary);
+}
+
+
+.img-train {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-train img{
+    width: 125px;
+    height: auto;
+}
+
+
+.training-time-card  .txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+
+.training-time-card  .related-games-item-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.training-time-card  .sml-fnt{
+    min-width: 130px;
+    max-width: 130px;
+    margin: 5px 0px 0px 0px;
+    color: var(--color-light-dark);
+    font-size: 14px;
+}
+
+.training-time-card  .all-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3px 0 0 0 ;
+    padding: 0;
+}
+
+.training-time-card  .all-content li{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.training-time-card  .icns-pos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.training-time-card  .icns-pos li{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+
+
+
+
+.training-time-card .btn-edit-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.training-time-card .btn-edit-5 .primary-button .pri-btn{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.training-time-card .btn-edit-5 .primary-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.training-time-card .btn-edit-5 .primary-button a svg{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+/*icon date and finger*/
+.page-games .all-content li span{
+    font-size: 17px;
+}
+/*icon date and finger*/
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+    .training-time-card .card-wrapper-related-games{
+        justify-content: space-between;
+    }
+
+    .img-train img{
+        width: 90px;
+    }
+
+    .training-time-card  .related-games-item-title{
+        font-size: 13px;
+    }
+    
+    .training-time-card  .sml-fnt{
+        font-size: 12px;
+    }
+
+
+    .training-time-card  .icns-pos{ 
+        max-width: 150px;
+        font-size: 12px;
+    }
+
+    .training-time-card  .icns-pos li{
+        gap: 2px;
+    }
+
+
+    .training-time-card .primaryBtn span a{
+        padding: 3px 15px;
+    }
+    .training-time-card .primaryBtn span a svg{
+        font-size: 12px;
+    }
+
+
+    /*icon date and finger*/
+    .page-games .all-content li span{
+        font-size: 15px;
+    }
+    /*icon date and finger*/
+}
+
+
+@media screen and (max-width:767px){
+
+    .training-time-card .card-wrapper-related-games{
+        flex-direction: column;
+    }
+
+    .img-train{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-train img{
+        width: 100%;
+    }
+
+    .training-time-card  .related-games-item-title{
+        font-size: 13px;
+    }
+    
+    .training-time-card  .sml-fnt{
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    .training-time-card  .icns-pos{ 
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+
+
+    .training-time-card .primaryBtn{
+        display: flex;
+        flex: 100%;
+        margin-bottom: 0;
+    }
+    .training-time-card .primaryBtn span {
+        display: flex;
+        flex: 1 100%;
+    }
+    .training-time-card .primaryBtn span a{
+        display: flex;
+        flex: 1 100%;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .training-time-card .primaryBtn span a svg{
+        font-size: 12px;
+    }
+
+}
+    
+
+
+@media screen and (max-width:450px){
+    .img-train {
+        gap: 7px;
+    }
+
+
+    .training-time-card  .related-games-item-title{
+        font-size: 13px;
+    }
+    
+    .training-time-card  .sml-fnt{
+        font-size: 12px;
+    }
+
+    .training-time-card  .icns-pos{ 
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+
+    .training-time-card .primaryBtn span a{
+        display: flex;
+        flex: 1 100%;
+        justify-content: center;
+        padding: 8px 0;
+    }
+    .training-time-card .primaryBtn span a svg{
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width:350px){
+
+    .training-time-card  .related-games-item-title{
+        font-size: 12px;
+    }
+    
+    .training-time-card  .sml-fnt{
+        font-size: 11px;
+    }
+
+    .training-time-card  .icns-pos{ 
+        font-size: 11px;
+    }
+}
+
+

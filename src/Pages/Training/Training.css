@@ -1,0 +1,18 @@
+.Streams-and-Streamers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: var(--margin-primary);
+}
+
+.Streams-and-Streamers .section-wrapper{
+    margin: 0;
+}
+
+
+
+@media screen and (max-width:992px){
+    .Streams-and-Streamers{
+        flex-direction: column  ;
+    }     
+}

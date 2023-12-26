@@ -1,0 +1,88 @@
+.button{
+    cursor: pointer;
+}
+.button span a{
+    font-size: 14px;
+    border-radius: var(--border-radius-primary);
+    padding: 8px 30px;
+    font-weight: var(--font-weight-bold);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+
+
+
+/*START Primary Button*/
+.primaryBtn span a{
+    background-color: var(--color-primary) !important;
+    color: var(--color-light) !important;
+}
+.primaryBtn span a:hover{
+    background-color: var(--color-light) !important;
+    color: var(--color-primary) !important;
+}
+/*END Primary Button*/
+
+
+
+
+
+/*START secondaryBtn Button*/
+.secondaryBtn span a{
+    border: 1px solid var(--color-primary) !important ;
+    color: var(--color-primary) ;
+}
+.secondaryBtn span a:hover{
+    border: 1px solid var(--color-light) !important ;
+    background-color: var(--color-light) !important ;
+    color: var(--color-primary) !important;
+}
+/*END secondaryBtn Button*/
+
+
+
+
+/*START UP Button*/
+.arrow-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1%;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 5000;
+    font-size: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    box-shadow: none;
+    outline: none;
+    background-color: var(--color-dark);
+    color: var(--color-primary);
+    transition: all .3s;
+   
+}
+.arrow-btn:hover{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+@media screen and (max-width:575px){
+    .arrow-btn{
+        bottom: 5%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+/*END UP Button*/
+
+
+
+
+@media screen and (max-width:992px) {
+}
+@media screen and (max-width:767px) {
+}

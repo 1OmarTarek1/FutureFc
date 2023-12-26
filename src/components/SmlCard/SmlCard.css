@@ -1,0 +1,47 @@
+/*box-2*/
+
+.box-2 {
+    direction: rtl;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+    
+}
+.box-2 .itm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/*start icons*/
+.box-2 .icnItm {
+    font-size: 100px;
+}
+.box-2 .itm .trophy{
+    color: silver;
+}
+.box-2 .itm .medal{
+    color: gold;
+}
+/*start icons*/
+
+/*box-2*/
+
+
+
+@media screen and (max-width:767px){
+    .box-2 .icnItm {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width:400px){
+    .box-2 .icnItm {
+        font-size: 25px;
+    }
+    .box-2 .aboutTeam {
+        justify-content: center !important;
+        gap:15px;
+    }
+}

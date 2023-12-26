@@ -1,0 +1,11 @@
+.oneNewsBox{
+    margin-bottom: var(--margin-primary);
+}
+
+/* .oneNewsBox .embla__viewport{
+    height: 450px;
+} */
+.oneNewsBox .embla__viewport:active{
+    cursor: grab;
+}
+

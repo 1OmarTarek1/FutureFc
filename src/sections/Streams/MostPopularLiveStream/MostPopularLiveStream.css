@@ -1,0 +1,46 @@
+.most-profile-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.most-profile-items .section-header h4 {
+    margin-bottom: 0 !important;
+}
+
+.profile-edit{ /* From button style*/
+    margin-top: calc(var(--margin-primary) / 1.5);
+}
+
+
+.most-pop-live .live-title {
+    margin-top: 30px !important;
+    margin-top: 0 !important;
+}
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width:767px) {
+    .live-title{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:494px){
+
+    .live-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5px;
+        font-size: 15px;
+    }
+
+} */

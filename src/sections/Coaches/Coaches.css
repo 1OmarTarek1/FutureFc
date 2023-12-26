@@ -1,0 +1,128 @@
+.coaches{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+/*coachCard*/
+
+
+.coaches .nav-item{
+    /* flex: 1 1 auto; */
+    width: 25%;
+    padding: 10px;
+}
+.coaches .nav-link{
+    padding: 0;
+    transition: all .3s;
+}
+
+.coachCard{
+    width: 100%;
+    height: 100%;
+}
+.coachCard img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    transition: all .3s;
+}
+.coachCard .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    transition: all .3s;
+}
+.coachCard .about-coach{
+    height: 140px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding-inline: 15px ;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5rem;
+    background-color: var(--color-darkest);
+    transition: all .3s;
+}
+/*hover effect*/
+.coaches .nav-link:hover {
+    border-bottom-color: var(--color-primary);
+}
+.coaches .nav-link:hover img {
+    filter: brightness(100%);
+}
+.coaches .nav-link:hover .title{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+.coaches .nav-link:hover .about-coach{
+    color: var(--color-primary) !important;
+}
+/*active class*/
+.coaches .active img {
+    filter: brightness(100%);
+}
+.coaches .nav-link.active {
+    border-bottom-color: var(--color-primary);
+}
+.coaches .active .title{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+.coaches .active .about-coach{
+    color: var(--color-primary) !important;
+}
+/*coachCard*/
+
+
+@media screen and (max-width:992px) {
+    /* .coaches .nav-item{
+        width: 50%;
+    } */
+    .coaches .nav-item{
+        padding: 5px;
+    }
+    .coachCard .title{
+        height: 35px;
+        font-size: 14px;
+    }
+    .coachCard .about-coach{
+        height: 120px;
+        padding-inline: 10px;
+        font-size: 11px;
+        line-height: 1.3rem;
+    }
+}
+@media screen and (max-width:767px) {
+    /* .coaches .nav-item{
+        width: 100%;
+    } */
+    .coaches .nav-item{
+        padding: 5px;
+    }
+    .coachCard .title{
+        height: 25px;
+        font-size: 11px;
+    }
+    .coachCard .about-coach{
+        display: none;
+    }
+}
+@media screen and (max-width:575px) {
+    .coachCard img{
+        display: none;
+    }
+    .coachCard .title{
+        height: 23px;
+        font-size: 9px;
+    }
+}

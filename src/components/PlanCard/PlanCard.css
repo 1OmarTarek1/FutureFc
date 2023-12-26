@@ -1,0 +1,181 @@
+
+
+.connectPage  .plan{  
+    direction: rtl;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    padding: 4px;
+    border: 1px solid var(--color-darkest);
+    background-color: var(--color-darkest);
+    cursor: default;
+    transition: all .3s;
+}
+.connectPage .plan ul > li {
+    width: calc(100%);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--color-dark);
+    transition: all .3s;
+}
+
+
+
+
+/*title*/
+.connectPage .plansAll .title{
+    padding: 13px 0;
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--color-dark);
+    transition: all .3s;
+}
+.connectPage .plansAll .cost{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+.connectPage .plansAll .activePlan .title{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+
+/*ul card*/
+.connectPage .plansAll  ul {
+    padding: 10px;
+    margin-bottom: 0;
+}
+.connectPage .plansAll  ul li{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: #ffffffb7;
+}
+.connectPage .plansAll ul li > i {
+    margin-left: 7px;
+}
+.connectPage .plansAll  ul li span i,
+.connectPage .plansAll  ul del i{
+    margin-left:4px;
+}
+.connectPage .plansAll  ul del{
+    color: rgba(255, 0, 0, 0.788);
+}
+
+
+/* Subscribe BUTTON */
+.connectPage .plansAll .secondaryBtn{
+    width: 100%;
+}
+.connectPage .plansAll .secondaryBtn span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connectPage .plansAll .secondaryBtn span a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    font-weight: 600;
+}
+/* Subscribe BUTTON */
+
+
+
+
+/* Special 1550EGP */
+.connectPage .specialAll{
+    position: relative;
+    overflow: hidden;
+}
+/*Add star for this Plan*/
+.connectPage .specialAll .starPlan{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25px;
+    height: 85px;
+    position: absolute;
+    left: 25px;
+    top: 0;
+    border: 18px solid #ffffff71;
+    border-bottom: 18px solid var(--color-darkest) !important;
+    color: var(--color-primary);
+    transition: all .3s;
+}
+.connectPage .plan:hover .starPlan{
+    border: 18px solid #fff;
+}   
+/* Special 1550EGP */
+
+
+
+
+/*Styled Active Plan*/
+.connectPage .activePlan{
+    transform: translateY(-20px) scale(1.05);
+    box-shadow: 0px 20px 25px -6px #000000a6;
+    border:1px solid var(--color-light) !important;
+    cursor: default !important;
+    filter: blur(0);
+}
+.connectPage .activePlan:hover{
+    transform: translateY(-20px) scale(1.05);
+}
+.connectPage .plan:not( .activePlan ){
+    filter: blur(1px);
+    cursor: pointer;
+}
+.connectPage .plan:not( .activePlan ):hover{
+    transform: translateY(-20px);
+    filter: blur(0px) !important;
+}
+
+/*li border*/
+.connectPage .activePlan ul > li {
+    border-bottom: 1px solid #333;
+}
+/*start icon*/
+.connectPage .activePlan .starPlan{
+    color: var(--color-light);
+    border: 18px solid var(--color-primary);
+}   
+.connectPage .activePlan:hover .starPlan{
+    color: var(--color-light);
+    border: 18px solid var(--color-primary);
+}   
+/*button*/
+.connectPage .activePlan .secondaryBtn span a{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+/*Styled Active Plan*/
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .connectPage .plan:not( .activePlan ){
+        filter: blur(0px);
+    }
+}
+@media screen and (max-width:480px) {
+    .connectPage .activePlan{
+        transform: translateY(0px) scale(1) !important;
+        box-shadow: none;
+    }
+    .connectPage .plan:not( .activePlan ){
+        filter: blur(0px);
+    }
+}

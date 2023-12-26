@@ -1,0 +1,55 @@
+.NewsPage .featuredGames-and-downloadedGames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 30px;   
+}
+
+.NewsPage .news-best-players{
+    display: flex;
+    margin: 0 0 var(--margin-primary) 0;
+}
+.NewsPage .news-best-players 
+.NewsPage .TopStreamers-page{
+    display: flex;
+}
+.NewsPage .news-best-players 
+.NewsPage .TopStreamers-page 
+.NewsPage .section-wrapper{
+    margin: 0;
+    
+}
+
+.news-best-players 
+.TopStreamers-page 
+.download-games-items {
+    height: 452px;
+}
+    
+
+
+.NewsPage .oneNewsBox{
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width:992px){
+    .NewsPage .featuredGames-and-downloadedGames{
+        flex-direction: column  ;
+    }    
+    .NewsPage .news-best-players{
+        flex-direction: column-reverse;
+    } 
+    .NewsPage .news-best-players 
+    .NewsPage .TopStreamers-page 
+    .NewsPage .section-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+}
+    @media screen and (min-width:768px){
+        .NewsPage  .sandbox  .embla__slide__img{
+        height: 550px;
+    }   
+}

@@ -1,0 +1,50 @@
+.profile-top-side .importCvForm{
+    z-index: 5700;
+}
+
+.profile-top-side .save-cover{
+    width: 100px;
+    left: 335px !important;
+}
+.profile-top-side .upload{
+    direction: ltr;
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    z-index: 4;
+}
+
+
+.profile-top-side 
+.upload-cover::-webkit-file-upload-button{
+    margin-right: 15px;
+    visibility: hidden;
+}
+.profile-top-side 
+.upload-cover::-webkit-file-upload-button:hover{
+    border-radius: 0;
+    letter-spacing: .05rem;
+    border-color:#ffffffa6;
+}
+.upload-cover::before {
+    content: 'Change Cover';
+    display: grid;
+    place-content: center;
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+    background-color: transparent;
+    border: 1px solid #ffffff6e;
+    border-radius: 5px;
+    color: var(--color-light);
+    cursor: pointer;
+    transition: all .3s;
+}
+.upload-cover:hover::before {
+    border-radius: 0;
+    letter-spacing: .05rem;
+    border-color:#ffffffa6;
+}

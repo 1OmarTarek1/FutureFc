@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+
+:root {
+    --color-dark             : #27292a;
+    --color-darkest          : #1f2122;
+    --color-light            : #fff;
+    --color-primary          : orange;
+    --color-icons            : rgb(255, 255, 255);
+    --color-light-dark       : #666;
+
+    --color-bg-body          : var(--color-darkest);
+
+
+    --distance-primary       : 50px;
+    --padding-primary        : calc(var(--distance-primary) - 10px);
+    --margin-primary         : calc(var(--distance-primary));
+    --border-radius-primary  : calc(var(--distance-primary) - var(--distance-primary));
+
+
+    --font-family-primary    : 'Cairo',  'Roboto', 'Helvetica', 'Arial','sans-serif';
+
+
+    --font-weight-bold       : 600;
+    --font-weight-normal     : 400;
+
+/*fonts Size*/
+    /*-------------- title --------------*/
+    --font-title-pc                : 50px;
+    --font-title-tablet            : 40px;
+    --font-title-mobile            : 30px;
+    --font-title-small             : 20px;
+    /*------------ paragraph ------------*/
+    --font-paragraph-pc            : 18px;
+    --font-paragraph-tablet        : 16px;
+    --font-paragraph-mobile        : 14px;
+    --font-paragraph-small         : 12px;
+    /*--------------- txt ---------------*/
+    --font-txt-pc                  : 16px;
+    --font-txt-tablet              : 14px;
+    --font-txt-mobile              : 12px;
+    --font-txt-small               : 10px;
+
+}
+
+html{
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 100px;
+}
+
+*,::after,::before { box-sizing: border-box ; }
+
+
+::-webkit-scrollbar             {  width           : 6px                        ; }
+::-webkit-scrollbar-track       {  background-color: var(--color-dark)          ; }
+::-webkit-scrollbar-thumb       {  background-color: var(--color-primary)       ; }
+::-webkit-scrollbar-thumb:hover {  background-color: rgb(214, 140, 3)         ; }
+
+::selection                     {  color: var( --color-light ) ; background: var( --color-primary ) ; }
+
+
+body{
+    background-color: var(--color-bg-body);
+    font-family     : var(--font-family-primary);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    color: var(--color-light-dark);
+}
+
+

@@ -1,0 +1,42 @@
+.topSideTeam {
+    direction: rtl;
+}
+.topSideTeam 
+.training-time-card 
+.card-wrapper-related-games {
+    /* padding-inline: 20px; */
+    justify-content: space-evenly;
+    margin: 5rem 0;
+}
+.topSideTeam 
+.training-time-card 
+.card-wrapper-related-games img {
+    display: none;
+}
+.topSideTeam 
+.training-time-card 
+.card-wrapper-related-games
+ .btn-edit-5{
+    display: none;
+}
+
+.topSideTeam  .training-time-card  {
+    width: 100%;
+}
+.topSideTeam  .training-time-card .icns-pos {
+    max-width: 100%;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 992px){
+    .topSideTeam  .training-time-card  {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    .topSideTeam .training-time-card .icns-pos {
+        justify-content: center;
+        align-items: center;
+    }
+}

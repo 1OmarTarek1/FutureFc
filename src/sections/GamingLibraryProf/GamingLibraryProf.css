@@ -1,0 +1,81 @@
+
+
+.team-subscribe .section-wrapper::-webkit-scrollbar{
+    width: 4px;
+}
+
+
+/*START all Edit btn*/
+
+.team-subscribe .buttons {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -45px;
+}
+.team-subscribe .primaryBtn span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 7px;
+    height: 37px;
+    gap: 0px;
+    background-color: var(--color-primary);
+    transition: all .3s;
+}
+.team-subscribe .primaryBtn span:hover {
+    background-color: rgb(255, 182, 47);
+}
+
+/*END all Edit btn*/
+
+
+
+.gaming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-subscribe img{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius-primary);
+}
+
+
+
+@media screen and (max-width:767px) {
+    .team-subscribe .buttons .button span{
+        font-size: 14px !important;
+        padding: 2px 5px;
+        margin: 0 !important;
+        
+    }
+    
+    .gaming-profile-title{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:575px) {
+    .team-subscribe .buttons .primaryBtn span {
+        font-size: 12px !important;
+        padding: 0 5px;
+        height: 30px;
+        gap: 0px;
+    }
+}
+@media screen and (max-width:425px) {
+    .team-subscribe .buttons{
+        top: -40px;
+    }
+    .team-subscribe .buttons .primaryBtn span {
+        font-size: 10px !important;
+        padding: 0 3px;
+        height: 25px;
+        gap: 0px;
+    }
+}
+

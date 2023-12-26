@@ -1,0 +1,17 @@
+.players{
+    direction: rtl;
+}
+.players .section-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+@media screen and (max-width:575px) {
+    .players .section-wrapper{
+        height: 850px;
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,54 @@
+.TrainTime-page {
+    margin-bottom: 70px;
+}
+.TrainTime-page .related-title {
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.TrainTime-page .section-header h4{
+    margin-bottom: 0;
+}
+
+.training-time-cards{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-y: scroll;
+    padding: 0px;
+}
+.TrainTime-page .training-time-cards::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.TrainTime-page .view-all-games span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width:992px){
+    .TrainTime-page .related-title{ 
+        flex-direction:row;
+        gap: 5px;
+        margin-bottom: 10px;
+        font-size: 25px; 
+        
+    }
+}
+@media screen and (max-width:767px){
+
+    .training-time-cards{
+        height: 600px;
+    }
+}
+

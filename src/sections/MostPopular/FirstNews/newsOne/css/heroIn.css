@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px) {
+    .embla__dot:after {
+        height: 0.2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 492px) {
+    .embla__buttons{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 410px) {    
+    .embla__dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .embla__dot:after {
+        height: 0.1rem;
+        width: 1.3rem;
+    }
+}
+
+

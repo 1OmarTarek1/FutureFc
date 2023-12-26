@@ -1,0 +1,186 @@
+.most-pop-live .section-wrapper{
+    /* height: 750px; */
+    overflow-y: scroll;
+} 
+.most-pop-live .section-wrapper::-webkit-scrollbar{
+    width: 2px;
+} 
+
+
+/*start training plans buttons*/
+.most-pop-live .trainingPlans {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding: 0;
+    margin-bottom: -10px;
+}
+.most-pop-live .trainingPlans li a{
+    font-weight: bold;
+    padding: 10px 20px;
+    color: var(--color-light);
+    background-color: var(--color-primary);
+    border:none;
+}
+.most-pop-live .trainingPlans li a:hover{
+    color: var(--color-primary);
+    background-color: var(--color-light);
+}
+.most-pop-live .trainingPlans li .active{
+    color: var(--color-primary);
+    background-color: var(--color-light);
+    border:none;
+}
+/*end training plans buttons*/
+
+
+.allContentPlans .miniTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Start Training Days*/
+
+.allContentPlans  .tabsStyle{
+    width: fit-content ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+.allContentPlans .trainingDays{
+    width: 120px;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 30px;
+    
+}
+
+
+
+
+
+
+
+.allContentPlans .trainingDays .nav-link {
+    width: 100%;
+    color: var(--color-light-dark);
+}
+.allContentPlans .trainingDays .nav-link:hover {
+    background-color: #333;
+}
+.allContentPlans .trainingDays .active {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+/*End Training Days*/
+
+
+
+
+
+/*Start Parts of Days*/
+.allContentPlans  .tab-content>.active {
+    display: flex;
+    gap: 20px;
+}
+.allContentPlans  .tab-content>.active p {
+    font-size: 13px;
+    transition: all .3s;
+    line-height: 1.5rem;
+}
+.allContentPlans  .tab-content>.active p:hover {
+    color: var(--color-light);
+}
+
+/*Content*/
+.allContentPlans .part .title{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    color:var(--color-light);
+    border-bottom: 1px solid var(--color-light-dark);
+}
+.allContentPlans .containStyle {
+   justify-content: space-evenly;
+}
+
+
+/*End Parts of Days*/
+
+
+
+
+
+/*start training plans content*/
+.most-pop-live .allContentPlans {
+    direction: rtl;
+}
+/*end training plans content*/
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .allContentPlans  .tabsStyle{
+        margin-bottom: 30px;
+    }
+    .allContentPlans .trainingDays{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+    .allContentPlans .tab-content>.active {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .allContentPlans .containStyle {
+        align-items: center;
+        justify-content: center;
+    }
+    .allContentPlans .wid-md-100 {
+        width: 100% !important;
+    }
+    .allContentPlans .trainingDays .nav-link {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .most-pop-live .trainingPlans {
+        gap: 3px;
+    }
+    .most-pop-live .trainingPlans a {
+        padding: 10px 20px;
+    }
+    .allContentPlans .trainingDays {
+        gap: 0px;
+    }
+    .allContentPlans .trainingDays a {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:383px) {
+    .most-pop-live .trainingPlans a {
+        padding: 7px 15px;
+    }
+    .allContentPlans .trainingDays a {
+        padding: 7px 10px;
+    }
+    .allContentPlans .tab-content>.active p {
+        font-size: 10px;
+        line-height: 1.3rem;
+    }
+}

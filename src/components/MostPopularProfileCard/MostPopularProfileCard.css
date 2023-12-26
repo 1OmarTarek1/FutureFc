@@ -1,0 +1,110 @@
+/* .most-profile-item{
+    flex: 0 1 100% ;
+} */
+
+.most-profile-item .card-wrapper{
+    background-color: var(--color-dark);
+    border-radius:calc( var(--border-radius-primary) / 2);
+    border: 1px solid var(--color-darkest);
+    padding: calc(var(--padding-primary) / 2);
+    transition: .2s;
+}
+.most-profile-item .card-wrapper:hover{
+    border: 1px solid #ec6091af;
+    filter: drop-shadow(0px 0px 3px var(--color-primary));
+}
+
+
+
+.most-profile-item-image{
+    width: 100%;
+    height: 100%;
+    border-radius:calc( var(--border-radius-primary) / 4) ;
+}
+
+.most-profile-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-profile-item-title{
+    font-size: 15px;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5rem;
+}
+.most-profile-item .img-and-icon{
+    position: relative;
+    width: 185px;
+    height: 185px;
+    margin-bottom: calc( var(--margin-primary) / 2);
+}
+
+.most-profile-item .img-and-icon .icn-a{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 45px;
+    height: 45px;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    border-radius: 50% ;
+    cursor: pointer;
+}
+
+.most-profile-item .img-and-icon .icon{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.most-profile-item .img-and-icon .icon svg{
+    font-size: 13px;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .most-profile-item{
+        flex: 0 1 50% ;
+    }
+
+    .most-profile-item .img-and-icon{
+        width: 375px;
+        height: 375px;
+    }
+}
+
+
+@media screen and (max-width:515px) {
+    .most-profile-item .img-and-icon{
+        width: 275px;
+        height: 275px;
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    .most-profile-item .img-and-icon{
+        width: 225px;
+        height: 225px;
+    }
+}
+
+
+@media screen and (max-width:370px) {
+    .most-profile-item .img-and-icon{
+        width: 175px;
+        height: 175px;
+    }
+}
+
+
+@media screen and (max-width:305px) {
+    .most-profile-item .img-and-icon{
+        width: 150px;
+        height: 150px;
+    }
+}

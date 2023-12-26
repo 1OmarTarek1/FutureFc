@@ -1,0 +1,107 @@
+.how-to-start-title{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    font-size: 35px;
+    margin: var(--margin-primary) 0px;
+}
+
+
+.all-info-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: var(--margin-primary);
+}
+
+.info-card{
+    direction: rtl;
+    background-color: var(--color-dark);
+    padding: 30px 30px;
+    border: 1px solid var(--color-light-dark);  
+    border-radius: var(--border-radius-primary);
+    transition: .2s;
+    cursor: default;
+}
+.info-card:hover{
+    border: 1px solid var(--color-primary);
+    filter: drop-shadow(0px 0px 3px var(--color-primary));
+    color: var(--color-light);
+}
+.info-card:hover p,
+.info-card:hover h5{
+    color: var(--color-light);
+}
+
+
+.info-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info-card h5{
+    margin: 20px 0px;
+    font-weight: var(--font-weight-bold);
+    transition: .3s;
+}
+
+
+.info-card p{
+    max-width: 250px;
+    margin-bottom: 0;
+    line-height: 1.8rem;
+    transition: .3s;
+}
+
+
+.how-start-live .btn-how  {
+    position: relative;
+    top: 30px;
+}
+
+
+.how-start-live .btn-how {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 70px 0;
+    transform: translate(-50%, -50%);
+}
+.how-start-live .btn-how a{
+    padding: 12px 20px;
+    font-weight: var(--font-weight-normal);
+    border-radius: var(--border-radius-primary);
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    transition: .2s;
+
+}
+
+.how-start-live .btn-how a:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+
+}
+
+
+@media screen and (max-width:992px){
+
+    .how-to-start-title { font-size: 25px; }
+
+    .all-info-cards{
+        flex-direction: column;
+        text-align: center;
+    }    
+
+    .info-card p { max-width: 100%; }
+}
+
+@media screen and (max-width:767px){
+
+    .how-to-start-title { 
+        font-size: 20px; 
+    }
+}

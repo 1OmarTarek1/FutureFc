@@ -1,0 +1,78 @@
+.ulLinks{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    font-size: 13px;
+}
+.ulLinks li{
+    padding: 3px 10px;
+    background-color: var(--color-dark);
+}
+.ulLinks a{
+    color: var(--color-light-dark);
+    transition: all .3s;
+}
+.ulLinks a:hover{
+    color: var(--color-primary);
+}
+
+
+@media screen and (max-width:992px) {
+    .ulLinks{
+        gap: 30px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .ulLinks li{
+        padding: 2px 7px;
+    }
+}
+@media screen and (max-width:776px) {
+    .ulLinks{
+        gap: 30px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .ulLinks li{
+        padding: 0;
+        background-color: transparent;
+    }
+}
+@media screen and (max-width:540px) {
+    .ulLinks{
+        justify-content: center;
+        gap: 20px;
+        height: 30px;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:455px) {
+    .secLinksCont{
+        direction: rtl;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .ulLinks{
+        justify-content: space-between;
+        width: 280px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        gap: 15px;
+    }
+    .ulLinks::-webkit-scrollbar{
+        height: 0px;
+    }
+    .ulLinks li{
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

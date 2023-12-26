@@ -1,0 +1,128 @@
+    .the-li-here{
+        padding: 15px 0px;
+    }
+
+
+    
+    .top-streams .most-popular-item{
+        flex: 1 25% ;
+    }
+    
+
+
+    .top-streams   .most-popular-item-content img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .top-streams  .most-stream-item-image{
+        width: 100%;
+        height: 100%;
+        border-radius:calc( var(--border-radius-primary)) ;
+    }
+
+
+    
+    .top-streams   .most-popular-item-content{
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+
+    .top-streams  .most-popular-item-content .most-popular-item-title{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        margin-bottom: 0;
+    }
+
+    .top-streams  .most-popular-item-content .most-popular-item-title .center-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+
+
+
+    .top-streams   .most-popular-item-content .icn-and-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .top-streams   .most-popular-item-content .check-icn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;
+        height: 16px;
+        font-size: 8px;
+        border-radius: 50%;
+        border: 1px dotted var(--color-darkest) ;
+        background-color: blueviolet;
+    }
+
+
+    .top-streams   .most-popular-item-content .title {
+        color: var(--color-primary);
+        font-size: 11px;
+    }
+
+
+
+    .top-streams .button-stream {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-streams .button-stream .primaryBtn a{
+        font-weight: var(--font-weight-bold);
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+
+
+ 
+
+
+    @media screen and (max-width:767px) {
+
+        .the-li-here 
+        .most-popular-item-content 
+        .most-popular-item-title::after{
+            display: none;
+        }
+
+    }
+
+
+        @media screen and (max-width:385px) {
+            .top-streams .most-popular-item-content .most-popular-item-title {
+                flex-direction: column;
+                justify-content: center;
+                gap: 7px;
+            }
+
+            .top-streams   .most-popular-item-content img{
+                width: 100%;
+                height: 100%;
+            }
+
+
+            .top-streams   .most-popular-item-content{
+                flex-direction: column;
+                gap: 30px;   
+            }
+
+            .top-streams   .most-popular-item-content .button-stream .primaryBtn a{
+                display: flex;
+                justify-content: center;
+                padding: 7px 10px;
+            }
+    
+        }

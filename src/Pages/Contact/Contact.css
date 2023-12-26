@@ -1,0 +1,41 @@
+.connectPage{
+    direction: rtl;
+}
+.connectPage .aboutCoaches .section-wrapper{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .connectPage .coachCard .about-coach {
+    display: flex;
+    }   
+    .connectPage .coachCard img {
+        display: flex ;
+    }
+    .connectPage .coaches{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .connectPage .coaches .nav-item {
+        width: 100%;
+    }
+    .connectPage .coachCard .about-coach  {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 20px; */
+    }
+    .connectPage .coachCard .title{
+        font-size: 15px;
+        height: 40px;
+        font-weight: normal;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+
+.card-wrapper-related-games{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-dark);
+    background-color: var(--color-darkest);
+    border-radius: 0px;
+    padding: 27px 0px 27px 0px;
+    margin: 0px;
+}
+
+.feat-games-item-image{
+    display: flex;
+    align-items: center;
+    width:  180px;
+    height: 300px;
+    border-radius:calc( var(--border-radius-primary) ) ;
+}
+
+.related-games-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-txt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+
+.sml-fnt{
+    color: var(--color-light-dark);
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.related-games-item-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.icns-pos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+@media screen and (max-width:1100px){
+    /* .feat-games-item-image{
+        width:  130px;
+        height: 270px;
+    }
+     */
+   
+    
+    }
+
+
+
+    @media screen and (max-width:992px){
+        .feat-games-item-image{
+            width:  165px;
+            height: 300px;
+        }
+        
+        }
+
+
+     @media screen and (max-width: 767px) {
+        .feat-games-item-image{
+            width:  175px;
+            height: 300px;
+        }
+     }
+     @media screen and (max-width: 574px) {
+        .feat-games-item-image{
+            width:  180px;
+            height: 300px;
+        }
+
+        .FeaturedGames-page .FeaturedGames-items .txt-icns {
+            width: 100%;
+        }
+
+     }
+
+
+     @media screen and (max-width: 400px) {
+        /* .feat-games-item-image{
+            width:  170px;
+            height: 300px;
+        } */
+
+
+        .feat-games-item  .related-games-item-image{
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        .feat-games-item  .related-games-item-title{
+            font-size: 12px;
+            margin-bottom: 0px;
+            line-height: 1.2px;
+        }
+        .feat-games-item  .sml-fnt{
+            font-size: 10px;
+        }
+
+        .feat-games-item  ul li  {
+            text-align: center;
+            font-size: 10px;
+        }
+
+    }
+
+
+     @media screen and (max-width: 339px) {
+        .feat-games-item  .feat-games-item-image{
+            width:  100px;
+            height: 170px;
+        }
+        
+        .feat-games-item  .related-games-item-content .txt-icns{
+            flex-direction: column;
+        }
+        .feat-games-item  .related-games-item-content .txt-icns .icns-pos{
+            flex-direction: row;
+            position: relative;
+            left: -35px;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+
+
+        
+
+    }

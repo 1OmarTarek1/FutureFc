@@ -1,0 +1,43 @@
+/*START Profile*/
+.fatherProfile{
+    position: absolute;
+    right: 20px;
+}
+.fatherProfile .profile {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 40px;
+    color: var(--color-light-dark);
+    background-color: var(--color-dark);
+    transition: all .2s;
+}
+
+.fatherProfile .profile:hover {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+.fatherProfile .active .profile{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    filter: drop-shadow( 0px 0px 5px var(--color-primary));
+}
+
+.fatherProfile .profile img {
+    width: 33px;
+    height: 33px;
+    margin-left: 0px;
+    border-radius: 50%;
+}
+
+.fatherProfile .profileLink{
+    display: none;
+}
+/*END Profile*/

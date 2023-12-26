@@ -1,0 +1,34 @@
+.hero-main{
+    padding: 0;
+    margin-bottom: calc(var(--margin-primary) + 25px);
+    position: relative;
+    cursor: default;
+}
+.hero-main:active{
+    cursor: grab;
+}
+
+@media screen and ( max-width: 575px ) {
+    .hero-main{
+        margin-bottom: 0;
+    }
+}
+
+.embla__buttons{
+    width: 100%;
+}
+
+.embla__button--next svg,
+.embla__button--prev svg{
+    width: 50%;
+    height: 50%;
+}
+.embla__button--next{
+    position: absolute;
+    right: 30px;
+}
+.embla__button--prev{
+    position: absolute;
+    left: 30px;
+}
+

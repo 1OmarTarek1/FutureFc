@@ -1,0 +1,55 @@
+.connectPage .plansAll{
+    margin-bottom: calc(var(--margin-primary) + 20px);
+} 
+.connectPage .plansAll:active{
+    cursor: grab;
+} 
+
+.connectPage   .slick-track{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+    height: 415px;
+}
+.connectPage 
+.slick-initialized 
+.slick-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Slick dots*/
+.connectPage .slick-dots{   
+    top: 100%;
+    display: flex !important;
+    justify-content: center;
+    color: var(--color-light);
+}
+.slick-dots li button:before {
+    color: white;
+    transition: all .3s;
+    font-size: 7px;
+}
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+/*Slick dots*/
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .connectPage   .slick-track{
+        gap: 15px; 
+    }
+    .connectPage 
+    .slick-initialized 
+    .slick-slide {
+        width: 100%;
+    }
+}

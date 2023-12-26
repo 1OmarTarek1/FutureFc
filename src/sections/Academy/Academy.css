@@ -1,0 +1,201 @@
+.academy{
+    direction: rtl;
+    cursor: default;
+    margin-bottom: var(--margin-primary);
+}
+.academy .title{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.academy .title-txt{
+    font-size: 25px;
+}
+.academy .title-img{
+    width: 55px;
+    height: auto;
+}
+.academy .paragraph {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--color-dark);
+    transition: all .3s;
+    
+}
+.academy .paragraph ol li{
+    margin-top: 5px;
+    margin-right: 40px;
+    color: #ffffff60;
+    transition: all .3s;
+}
+
+.academy .about-future:hover ol li {
+    color: #ffffffc5;
+}
+.academy .about-future:hover .paragraph {
+    border-bottom: 1px solid var(--color-primary);
+}
+.academy .about-future:hover p{
+    color: #ffffffc5;
+}
+.academy .paragraph p{
+    display: flex;
+    width: 70%;
+    margin-bottom: 0;
+    line-height: 1.8rem;
+    color: #ffffff60;
+    transition: all .3s;
+    /* text-wrap:balance; */
+}
+.academy .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    gap: 150px;
+}
+.academy .imgs .infoImg-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--color-dark);
+}
+.academy .imgs img{
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    transition: all .5s;
+}
+.academy .imgs img:hover{
+    width: 100%;
+    height: auto;
+    filter: brightness(100%);
+    transform: scale(1.2);
+
+}
+
+/*logo-info*/
+.academy .logo-info p{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+/*logo-info*/
+
+
+@media screen and (max-width:992px) {
+    .academy .paragraph ol li{
+        margin-right: 20px ;
+        font-size: 12px;
+    }
+    .academy .paragraph p{
+        font-size: 13px;
+        /* text-wrap:balance; */
+    }
+    .academy 
+    .imgs 
+    .infoImg-wrapper{
+        width: 120px;
+        height: 120px;
+    }
+    .academy 
+    .imgs {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .academy .paragraph{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .academy .about-future{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .academy .title-txt{
+        font-size: 20px;
+    }
+    .academy .paragraph ol li{
+        font-size: 10px;
+    }
+    .academy .paragraph p{
+        /* text-align: right; */
+        width: 100%;
+        font-size: 11px;
+        line-height: 1.4rem;
+        /* text-wrap:balance; */
+    }
+    .academy 
+    .imgs {
+        flex-direction: row;
+        gap: 0px;
+        width: 100%;
+    }
+
+
+    .academy .whyUs .paragraph,
+    .academy .goals .paragraph{
+        flex-direction: column;
+    }
+
+    .academy .whyUs .imgs .infoImg-wrapper,
+    .academy .goals .imgs .infoImg-wrapper,
+    .academy .future .imgs .infoImg-wrapper{
+        border-radius: 0;
+        border: none;
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .academy .whyUs .imgs  img,
+    .academy .goals .imgs  img,
+    .academy .future .imgs img {
+        width: 100%;
+        height: auto;
+    }
+    .academy .future .imgs img:hover,
+    .academy .goals .imgs img:hover,
+    .academy .whyUs .imgs img:hover{
+        transform: scale(1);
+    }
+
+
+}
+@media screen and (max-width:545px) {
+    .logo-info .paragraph{
+        flex-direction: column;
+    } 
+    .academy .paragraph ol li{
+        margin-right: 15px;
+    }
+
+    .academy 
+    .imgs {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .academy 
+    .imgs 
+    .infoImg-wrapper{
+        border-radius: 0;
+        /* border: none; */
+        width: 100%;
+        height: auto;
+    }
+
+}

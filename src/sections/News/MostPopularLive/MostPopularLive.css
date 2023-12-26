@@ -1,0 +1,37 @@
+.most-live-items{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+/* .most-live-items .just-for-pop{
+    display: flex;
+    flex: 1 100%;
+} */
+
+.profile-edit{ /* From button style*/
+    margin-top: calc(var(--margin-primary) / 1.5);
+}
+
+/* .most-live-items  .card-wrapper {
+    width: 300px;
+} */
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .live-title{
+        direction: rtl;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        font-size: 20px;
+    }
+}
+
+

@@ -1,0 +1,379 @@
+.team-subscribe .section-wrapper{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+
+.subs{
+    flex:1 1 100%;
+}
+
+
+.subs ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-dark);
+    padding:calc(var(--padding-primary) - 20px) 0px ;
+    margin-bottom: 0;
+    cursor: default;
+    transition: .4s;
+}
+
+.subs ul:hover{
+    border-color: var(--color-primary);
+}
+
+
+.subs ul .btn-li{
+    position: relative;
+}
+
+
+
+.subs ul .all-content-without-img{
+    display: flex;
+    gap: 55px;
+}
+.subs ul .all-content-without-img .toControl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    border-bottom: none;
+    margin: 0;
+    padding:0;
+}
+
+.subs h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.subs  ul li  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light-dark);
+    font-size: 14px;
+}
+
+
+.G-L-I-img{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+
+.G-L-I-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*START Edit Buttons*/
+
+.subs .subscribeLi  {
+    transition: all .2s;
+}
+.subs .subscribeLi .subscribesBtn .secondaryBtn span  {
+    /* flex: 100% ; */
+    transition: all .2s;
+}
+.subs .subscribeLi .subscribesBtn .secondaryBtn span:hover{
+    border-color:var(--color-light) !important ;
+    background-color: var(--color-light) !important;
+}
+
+/*END Edit Buttons*/
+
+
+
+
+
+@media screen and (max-width:992px){
+
+    .team-subscribe .section-wrapper{
+        height: 800px;
+        overflow-y: scroll;
+    }
+
+    .subs ul .btn-li{
+        display: none;
+    }
+
+    .subs ul{
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        
+    }
+    .subs ul .btnLi { margin-top: 20px; }
+    
+    
+    .subs ul .btnLi .btns { gap: 20px !important ; }
+    .subs ul .btnLi .btns .edit-btn{ 
+        width: 150px ;
+        height: 40px; 
+    }
+
+
+   .subs .G-L-I-img{
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-bottom: 40px;
+   }
+
+   .subs ul  .all-content-without-img .toControl {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    }
+
+    .subs ul .all-content-without-img {
+        width: 100%;
+    }
+
+    .subs ul .all-content-without-img .toControl li:first-child{
+        display: flex;
+    }
+    .subs ul .all-content-without-img .toControl li:first-child .media-small-btn{
+        display: flex;
+    }
+}
+
+
+/*START button edit*/
+
+.subs .subscribeLi .subscribesBtn .secondaryBtn span{
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary) ;
+    color: var(--color-primary);
+}
+
+/*END button edit*/
+
+
+
+@media screen and (max-width:992px){
+    .subs .subscribeLi .subscribesBtn {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:767px){
+
+
+    .subs ul{
+        justify-content: center;
+
+    }
+
+   .subs .G-L-I-img{
+        justify-content: center;
+   }
+
+
+   .subs ul  .all-content-without-img {
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:575px){
+
+
+    .subs ul li div {
+        font-size: 5px;
+    }
+
+
+
+   .subs 
+   .G-L-I-img 
+   .G-L-I-txt 
+   h4 {
+        font-size: 13px;
+   }
+   .subs
+    .G-L-I-img 
+    .G-L-I-txt 
+    span {
+        font-size: 12px;
+    }
+
+
+
+   .subs ul  
+   .all-content-without-img 
+   h4 {
+        font-size: 13px;
+    }
+    .subs ul  
+   .all-content-without-img 
+   span {
+        font-size: 12px;
+    }
+
+
+
+    .subs ul  
+    .all-content-without-img 
+    .btn-li div 
+    a{
+        padding: 10px 19px;
+        font-size: 12px;
+    } 
+
+}
+
+
+
+@media screen and (max-width:480px){
+
+
+    .subs ul div{
+        width: fit-content;
+    }
+
+    .subs 
+    .G-L-I-img{
+        justify-content: center;
+    }
+
+
+    .subs ul  
+    .all-content-without-img {
+       justify-content: space-between;
+    }
+
+   
+
+
+    .subs ul .btn-li{
+        margin-top: 20px;
+        display: flex;
+    }
+    .subs ul .btn-li .button{
+        width: 100%;
+    }
+    .subs ul .btn-li .button span{
+        width: 100%;
+    }
+    .subs ul .btn-li .button span a{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .subs ul .btn-li .center-download-btn {
+        left: 0%;
+    }
+
+
+
+
+    /*START FONT SIZE*/
+
+    .subs ul li div {
+        font-size: 5px;
+        text-align: start;
+    }
+
+   .subs 
+   .G-L-I-img 
+   .G-L-I-txt 
+   h4 {
+        font-size: 12px;
+        
+   }
+   .subs
+    .G-L-I-img 
+    .G-L-I-txt 
+    span {
+        font-size: 11px;
+    }
+
+
+
+   .subs ul  
+   .all-content-without-img 
+   h4 {
+        font-size: 12px;
+    }
+    .subs ul  
+   .all-content-without-img 
+   span {
+        font-size: 11px;
+    }
+
+    
+
+
+    /*END FONT SIZE*/
+
+
+
+    .subs ul  
+    .btn-li{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:360px){ 
+
+    .subs ul div{
+        width: fit-content;
+    }
+
+    .subs 
+    .G-L-I-img{
+        justify-content: center;
+    }
+
+
+    .subs ul  
+    .all-content-without-img {
+       justify-content: space-between;
+    }
+
+    .subs ul  
+    .all-content-without-img
+    div h4{
+        font-size: 10px;
+        text-align: start;
+    }
+    .subs ul  
+    .all-content-without-img
+    div span{
+        font-size: 9px;
+        
+    }
+ 
+}
+
+
+
+
+
+
