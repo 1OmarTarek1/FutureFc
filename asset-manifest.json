@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.d076527a.css",
-    "main.js": "/FutureFc/static/js/main.c8b6fd41.js",
+    "main.css": "/FutureFc/static/css/main.98c535fd.css",
+    "main.js": "/FutureFc/static/js/main.0374bfa4.js",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.9311f83eb2938c46c3c4.jpg",
     "static/media/Facebook.mp4": "/FutureFc/static/media/Facebook.4ffba5ca16a81852a375.mp4",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.eabc4be64c8bdf23606b.jpg",
     "static/media/slide-1.jpg": "/FutureFc/static/media/slide-1.a4614d16d7bcd63eaf07.jpg",
     "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.d9c533f909a7ad7e0472.jpg",
-    "static/media/logoFoot.png": "/FutureFc/static/media/logoFoot.e1d6859d64f420927b73.png",
     "static/media/logoHead.png": "/FutureFc/static/media/logoHead.e2ac4a1a7a203074d10c.png",
     "static/media/featured-01.jpg": "/FutureFc/static/media/featured-01.8a6d341f27b807c01278.jpg",
     "static/media/featured-04.jpg": "/FutureFc/static/media/featured-04.ae58634817d4570c4fb8.jpg",
@@ -37,6 +36,7 @@
     "static/media/fa-solid-900.woff2": "/FutureFc/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
     "static/media/featured-03.jpg": "/FutureFc/static/media/featured-03.5f24080e47db7bf486a4.jpg",
     "static/media/coaches-02.jpg": "/FutureFc/static/media/coaches-02.e2765e9815a973ce7016.jpg",
+    "static/media/logoFoot.png": "/FutureFc/static/media/logoFoot.bda0810977dc094d7f02.png",
     "static/media/fa-brands-400.woff2": "/FutureFc/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/clip-03.jpg": "/FutureFc/static/media/clip-03.ab3b5d740df57af7bbbd.jpg",
     "static/media/2013.jpg": "/FutureFc/static/media/2013.45d6acbc2004955cd5eb.jpg",
@@ -64,11 +64,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.d076527a.css.map": "/FutureFc/static/css/main.d076527a.css.map",
-    "main.c8b6fd41.js.map": "/FutureFc/static/js/main.c8b6fd41.js.map"
+    "main.98c535fd.css.map": "/FutureFc/static/css/main.98c535fd.css.map",
+    "main.0374bfa4.js.map": "/FutureFc/static/js/main.0374bfa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d076527a.css",
-    "static/js/main.c8b6fd41.js"
+    "static/css/main.98c535fd.css",
+    "static/js/main.0374bfa4.js"
   ]
 }
