@@ -1,65 +1,54 @@
-
-
 .footer{
     cursor: default;
-    border-top: 1px solid var(--color-light-dark); 
 }
-.footer .logo{
-    width: fit-content;
-    height: fit-content;
-    
-    border-radius: 0;
+.footer .footSocial{
+    border-top: 1px solid var(--color-light-dark);
 }
-.footer img{
-    width: 200px;
-    height: 100%;
-    margin-bottom: 40px;
-    border-radius: 0;
-}
-.footer .copyright > span{
-    color: var(--color-light);
-}
-.footer .copyright div span{
-    color: var(--color-primary);
+.footer .linksFooter-sm{
+    display: none;
 }
 
-.footer .contact ul svg{
-    width: 20px;
-    height: 20px;
-}
-
-.footer .facebook{
-    background-color: #1877f2;
-}
-.footer .twitter{
-    background-color: #1da1f2;
-}
-.footer .linkedin{
-    background-color: #0077b5;
-}
-.footer .youtube{
-    background-color: #ff0000;
-}
-
-.footer ul li{
-    line-height: 2rem;
-    font-size: 13px;
-    cursor: pointer;
+.footer a{
     transition: all .2s;
 }
-
-.footer ul li:hover{
-    color: #fff;
+.footer a:hover{
+    color: #ffffffbd !important;
 }
-
 
 @media screen and (max-width:767px) {
-    .footer .media-social{
-        justify-content: center;
+    .footer .linksFooter-lm{
+        display: none;
     }
-    .footer ul li { text-align: center; }
-    
+    .footer .linksFooter-sm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* transition: all .3s; */
+    }
+    .footer .accordion-borderless 
+    .accordion-item 
+    .accordion-button:not(.collapsed){
+        background-color: var(--color-darkest);
+        color: var(--color-light-dark);
+    }
+    .footer .accordion-button::after{
+        margin-left:  5px !important;
+    }
+    .footer .accordion-button:not(.collapsed)::after{
+        /* background-image: var(--color-light-dark) !important; */
+        filter: grayscale(100%);
+        color: var(--color-light-dark) !important;
+    }
+
+
+    .footer .accordion-borderless .accordion-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer .accordion-borderless .accordion-button {
+        font-weight: 700;
+    }
 }
-
-/*END FOOTER*/
-

@@ -9,6 +9,9 @@ export {default as SecondHeader} from './SecondHeader/SecondHeader'
 export{default as LoginBox} from './LoginBox/LoginBox'
 
 
+// Side Nav
+export{default as Sidebar } from './Sidebar/Sidebar'
+
 
 
 

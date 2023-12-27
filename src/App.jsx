@@ -24,7 +24,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 
-import { Header, SecondHeader, Footer, LoginBox } from './sections/index'
+import { Header, SecondHeader, Footer, LoginBox, Sidebar } from './sections/index'
 import { 
         Home,      
         Profile, 
@@ -47,16 +47,19 @@ import './App.css';
 
 const App = () => {
     AOS.init();
+    // NOTE !! =>>  ( When u Search about something in any page after click maybe scroll will stop 
+    // and I Think the problem in the ScrollToTop.js file That file have function make scrolling to 
+    // top in every component change )
     return(
-        
         <>
-            <Router basename={'/FutureFc'}> 
+            <Router> 
                 
                 <Headroom>
                     <Header /> 
                 </Headroom>
                 <SecondHeader />
                 <LoginBox />
+                <Sidebar />
                 <Container>
                     <Routes>
                         <Route     path = '/'             element = {<  Home     />}  />
@@ -78,6 +81,7 @@ const App = () => {
                 </Container>
 
                 <UpButton />
+                
                 <Footer />
                 <ScrollToTop />
             </Router>

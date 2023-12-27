@@ -1,5 +1,5 @@
 
-import      { FaCaretUp } from 'react-icons/fa';
+import      { FaArrowUp } from 'react-icons/fa';
 import        React, { useState }  from 'react'; 
 
 
@@ -44,6 +44,10 @@ const IconButton = ({setActiveButton, activeButton}) => { // ICON NAVBAR LINKS
         </button>
     )
 }
+
+
+
+
 const UpButton = () =>{ // Up Button
 //START scroll to top page button
     const [visible, setVisible] = useState(false)
@@ -61,9 +65,8 @@ const UpButton = () =>{ // Up Button
         <button 
         className  =  'arrow-btn' 
         onClick    =  {scrollToTop} 
-        style      =  {{opacity: visible ? '.7' : '0'}}>
-
-            <FaCaretUp />
+        style      =  {{bottom: visible ? '2%' : '-50px'}}>
+            <FaArrowUp />
         </button>
     );
 }

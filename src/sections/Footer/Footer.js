@@ -1,111 +1,207 @@
-import { NavLink, Link } from 'react-router-dom';
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
+import { HashLink } from 'react-router-hash-link';
+import footerIcon from '../../assets/images/logoFoot.png'
+import './Footer.css'
 
-import { PrimaryBtn }    from '../../components/index';
+const footer = () => {
+    return (
+        <MDBFooter bgColor={"var(--color-darkest)"} className='footer text-center text-lg-start text-muted mt-5'>
+        <section className='footSocial d-flex justify-content-center justify-content-lg-between p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            <div className='me-5 d-none d-lg-block'>
+            <span>Get connected with us on social networks:</span>
+            </div>
 
-import './Footer.css';
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
-import   logoFoot from '../../assets/images/logoFoot.png';
+            <div>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="facebook-f" />
+            </HashLink>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="twitter" />
+            </HashLink>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="google" />
+            </HashLink>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="instagram" />
+            </HashLink>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="linkedin" />
+            </HashLink>
+            <HashLink to='#!' className='me-4 text-reset'>
+                <MDBIcon fab icon="github" />
+            </HashLink>
+            </div>
+        </section>
 
+        <section className=''>
+            <MDBContainer className='text-center text-md-start mt-5'>
+            <MDBRow className='mt-3'>
+                <MDBCol md="4" lg="4" xl="3" className='mx-auto mb-4'>
+                <h6 className='text-uppercase fw-bold mb-4'>
+                    <span>
+                        <img 
+                        className='footerIcon img-fluid' 
+                        src={footerIcon} 
+                        alt='' 
+                        style={{width:"30px", marginRight:"10px"}}
+                        />
+                    </span>
+                    Future Academy
+                </h6>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                </p>
+                </MDBCol>
 
-const Footer = () => {
-    return(
-        <>
-        <div className="footer pt-5 mt-5 text-white-50 text-center text-md-start">
-            <div className="container">
-                    <div className="row">
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="info">
-                            <NavLink to="/" className="navbar-brand logo mb-4"><img src={logoFoot} alt=''></img></NavLink>
-                                <p className="mb-5">
-                                    Pellentesque in ipsum id orci porta dapibus. 
-                                    Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                                </p>
-                                <div className="copyright mb-5">
-                                    Created By <span>Omar Tarek</span>
-                                    <div>
-                                        &copy; 2023 - <span className='fw-bold'>FUTURE FC</span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-2">
-                            <div className="links mb-5">
-                                <div className="h5 text-light">Links</div>
-                                <ul className="list-unstyled lh-lg">
-                                    <li>Home</li>
-                                    <li>Our Services</li>
-                                    <li>Portfolio</li>
-                                    <li>Testimonials</li>
-                                    <li>Support</li>
-                                    <li>Terms and Condition</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-2">
-                            <div className="links mb-5">
-                                <div className="h5 text-light">About Us</div>
-                                <ul className="list-unstyled lh-lg">
-                                    <li>Sign In</li>
-                                    <li>Register</li>
-                                    <li>About Us</li>
-                                    <li>Blog</li>
-                                    <li>Contact Us</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="contact mb-5">
-                                <h5 className="text-light">Contact Us</h5>
-                                <p className="lh-lg mt-3 mb-5">
-                                    Get in touch with us via mail phone.
-                                    We are waiting for your call or message
-                                </p>
-                                
-                                <PrimaryBtn>OmarTarek@gmail.com</PrimaryBtn>
-                                
-                                <ul className="media-social d-flex mt-5 list-unstyled gap-4">
-
-                                    <li>
-                                        <Link className="d-block text-light" to="//www.facebook.com" target='blank' >
-                                            <i className="fa-brands fa-lg facebook rounded-circle p-2"><FaFacebook/></i>
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link className="d-block text-light" to="//www.twitter.com" target='blank'>
-                                            <i className="fa-brands  fa-lg twitter rounded-circle p-2"><FaTwitter/></i>
-                                        </Link>
-                                    </li>
-
-                                    <li>
-                                        <Link className="d-block text-light" to="//www.linkedin.com" target='blank'>
-                                            <i className="fa-brands fa-lg linkedin rounded-circle p-2"><FaLinkedin/></i>
-                                        </Link>
-                                    </li>
-
-                                    
-                                    <li>
-                                        <Link className="d-block text-light" to="//www.youtube.com" target='blank'>
-                                            <i className="fa-brands fa-lg youtube rounded-circle p-2"><FaYoutube/></i>
-                                        </Link>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
+                <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4' >
+                    <div className='linksFooter-lm'>
+                        <h6 className='text-uppercase fw-bold mb-4'>Pages</h6>
+                        <p>
+                            <HashLink to='/' className='text-reset'>
+                                Home
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/News' className='text-reset'>
+                                News
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/Training' className='text-reset'>
+                                Training
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/Else/About' className='text-reset'>
+                                About Us
+                            </HashLink>
+                        </p>
                     </div>
-                </div>
-        </div>
-        </>
+                    <MDBAccordion className='linksFooter-sm' borderless initialActive={""} >
+                        <MDBAccordionItem collapseId={1} headerTitle='Pages' > 
+                            <p>
+                                <HashLink to='/' className='text-reset'>
+                                    Home
+                                </HashLink>
+                            </p>
+                            <p>
+                                <HashLink to='/News' className='text-reset'>
+                                    News
+                                </HashLink>
+                            </p>
+                            <p>
+                                <HashLink to='/Training' className='text-reset'>
+                                    Training
+                                </HashLink>
+                            </p>
+                            <p>
+                                <HashLink to='/Else/About' className='text-reset'>
+                                    About Us
+                                </HashLink>
+                            </p>
+                        </MDBAccordionItem>
+                    </MDBAccordion>
+                </MDBCol>
 
-    )
+                <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+                    <div className='linksFooter-lm'>
+                        <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
+                        <p>
+                            <HashLink to='/Training#TrainingTime' className='text-reset'>
+                                Training Time
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/#News' className='text-reset'>
+                                Important News
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/Contact#SubscribePlans' className='text-reset'>
+                                Subscribe Plans
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/#SomeTeams' className='text-reset'>
+                                Teams
+                            </HashLink>
+                        </p>
+                    </div>
+                    <MDBAccordion className='linksFooter-sm' borderless initialActive={""} >
+                        <MDBAccordionItem collapseId={1} headerTitle='Links' > 
+                        <p>
+                            <HashLink to='/Training#TrainingTime' className='text-reset'>
+                                Training Time
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/#News' className='text-reset'>
+                                Important News
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/Contact#SubscribePlans' className='text-reset'>
+                                Subscribe Plans
+                            </HashLink>
+                        </p>
+                        <p>
+                            <HashLink to='/#SomeTeams' className='text-reset'>
+                                Teams
+                            </HashLink>
+                        </p>
+                        </MDBAccordionItem>
+                    </MDBAccordion>
+                </MDBCol>
+
+                <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+                    <div className='linksFooter-lm'>
+                        <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                        <p>
+                            <MDBIcon icon="home" className="me-2" />
+                            Nasr City, Jewel Club, EG
+                        </p>
+                        <p>
+                            <MDBIcon icon="envelope" className="me-3" />
+                            info@example.com
+                        </p>
+                        <p>
+                            <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                        </p>
+                        <p>
+                            <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                        </p>
+                    </div>
+                    <MDBAccordion className='linksFooter-sm' borderless initialActive={""} >
+                            <MDBAccordionItem collapseId={1} headerTitle='Contact' > 
+                            <p>
+                                <MDBIcon icon="home" className="me-2" />
+                                Nasr City, Jewel Club, EG
+                            </p>
+                                <p>
+                                    <MDBIcon icon="envelope" className="me-3" />
+                                    info@example.com
+                                </p>
+                                <p>
+                                    <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                                </p>
+                                <p>
+                                    <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                                </p>
+                            </MDBAccordionItem>
+                    </MDBAccordion>
+                </MDBCol>
+            </MDBRow>
+            </MDBContainer>
+        </section>
+
+        <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+            © 2024 Copyright: <HashLink className='text-reset fw-bold' to='#!'> Programer.com</HashLink> -
+            <span> Created by: <span className='fw-bold'> Omar Tarek</span></span>
+        </div>
+        </MDBFooter>
+    );
 }
 
-export default Footer
+export default footer
