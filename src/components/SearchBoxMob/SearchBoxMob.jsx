@@ -61,7 +61,7 @@ const SearchBoxMob = ({activeButton, setActiveButton}) => {
                             </span>
                         </label>    
                         <label 
-                        htmlFor   = 'searchText' 
+                        htmlFor   = 'searchTextMob' 
                         className = 'closeImg'
                         onClick   = { handleClose }
                         >

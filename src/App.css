@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
-
-:root {
+/*
     --color-dark             : #27292a;
     --color-darkest          : #1f2122;
-    --color-light            : #fff;
-    --color-primary          : orange;
-    --color-icons            : rgb(255, 255, 255);
-    --color-light-dark       : #666;
+*/
+:root {
+    --body-bg-color          : var(--color-darkest);
+    --container-bg-color     : var(--color-dark);
+    --section-bg-color       : var(--color-dark);
+    --header-bg-color        : var(--color-darkest);
+    --nestedNav-bg-color     : var(--color-dark);
+    --header-text-color      : var(--color-light-dark);
+    --active-color           : var(--color-primary);
+    --text-color             : var(--color-light-dark);
+    --border-color           : var(--color-darkestPro );
 
-    --color-bg-body          : var(--color-darkest);
+
+
+
+    --color-light-dark       : #666;
+    --color-dark             : #27292a;
+    --color-darkest          : #1f2122;
+    --color-darkestPro       : #222;
+    --color-light            : #eee;
+    --color-primary          : orange;
+    --color-primary-light    : rgb(233, 168, 48);
+    --color-icons            : rgb(255, 255, 255);
+
 
 
     --distance-primary       : 50px;
@@ -44,6 +61,24 @@
 
 }
 
+[data-theme='light'] {
+    --body-bg-color          : #fff;
+    --container-bg-color     : #e7e7e7;
+    --section-bg-color       : #ddd;
+    --header-bg-color        : var(--color-primary);
+    --header-text-color      : var(--color-light);
+    --nestedNav-bg-color     : var(--color-primary-light);
+    --active-color           : var(--color-darkest);
+    --text-color             : var(--color-dark);
+    --border-color           : #ffffff2d;
+}
+
+
+
+
+
+
+
 html{
     scroll-behavior: smooth !important;
     scroll-padding-top: 100px;
@@ -61,7 +96,7 @@ html{
 
 
 body{
-    background-color: var(--color-bg-body);
+    background-color: var(--body-bg-color);
     font-family     : var(--font-family-primary);
 }
 
@@ -73,7 +108,7 @@ a{
     text-decoration: none;
 }
 p{
-    color: var(--color-light-dark);
+    color: var(--text-color);
 }
 
 

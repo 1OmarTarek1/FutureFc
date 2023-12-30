@@ -9,6 +9,10 @@ export {default as Container} from './Container/Container'
 export {default as NavItem} from './NavItem/NavItem'
 
 
+//Sidebar Components
+export {default as Themes} from './Themes/Themes'
+
+
 // Login and Profile Box
 export { default as ProfileLink } from './ProfileLink/ProfileLink'
 

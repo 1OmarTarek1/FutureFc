@@ -47,7 +47,6 @@
     .ulLinks{
         justify-content: center;
         gap: 20px;
-        height: 30px;
         font-size: 11px;
     }
 }

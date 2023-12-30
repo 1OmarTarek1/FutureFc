@@ -52,7 +52,7 @@ const App = () => {
     // top in every component change )
     return(
         <>
-            <Router basename='/FutureFc'> 
+            <Router> 
                 
                 <Headroom>
                     <Header /> 

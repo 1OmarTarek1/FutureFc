@@ -30,7 +30,7 @@
     font-size: 13px;
     font-weight: var(--font-weight-normal);
     color: var(--color-dark);
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color);
     border-radius: 50px;
     cursor: pointer;
     transition: .3s;
@@ -46,7 +46,7 @@
     transition: .1s;
 }
 .cyborg-navbar .search-input::placeholder{
-    color: var(--color-dark);
+    color: var(--container-bg-color);
 }
 .cyborg-navbar .activeSearch .search-input::placeholder{
     color: var(--color-light-dark);
@@ -125,7 +125,7 @@
 
 
 .closeImg{
-    display: none;
+    /* display: none; */
     position: absolute;
     left: 17px;
     filter: brightness(70%);

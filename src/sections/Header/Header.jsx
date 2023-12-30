@@ -45,10 +45,6 @@ const Header = () => {
 
                 <div
                 className='collapse navbar-collapse justify-content-center '
-                    // className={ activeBoxLinks 
-                    //     ? 'collapse navbar-collapse justify-content-center show' 
-                    //     : 'collapse navbar-collapse justify-content-center '
-                    // } 
                     id="mainmenu">
                     <ul className="ulTap navbar-nav ms-center nav-transition">
                         
@@ -57,9 +53,7 @@ const Header = () => {
                         </NavItem>
                         
                         <NavItem>
-                            <NavLink to="/Contact" className="nav-link all-links-website" 
-                            // onClick={handleClick} 
-                            >
+                            <NavLink to="/Contact" className="nav-link all-links-website" >
                                 <i className="fa-solid fa-message"></i>
                                 <span>تواصل</span>
                             </NavLink>
@@ -97,7 +91,6 @@ const Header = () => {
 
                 <div className="allBoxSearch toRemoveForm-pc" >
                         <SearchBoxPC  />
-                        {/* <SearchResultsList  /> */}
                 </div>
                 <ProfileLink />
             </div>

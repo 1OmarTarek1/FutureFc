@@ -53,7 +53,7 @@ const SearchBoxPC = () => {
         setActiveSearch(!activeSearch)
     }
     useEffect( () => {
-        let closeImg = document.querySelector(".closeImg");
+        let closeImg = document.querySelector(".closeImgPc");
         if ( search !== "" ){
             closeImg.style.display = "block";
             // fetch(` https://api.tvmaze.com/search/shows?q=${search}`)
@@ -95,7 +95,7 @@ const SearchBoxPC = () => {
                     </label>
                     <label 
                         htmlFor   = 'searchText' 
-                        className = 'closeImg'
+                        className = 'closeImg closeImgPc'
                         onClick   = { handleClose }
                     >
                         <img className='img-fluid' src={close} alt="" />

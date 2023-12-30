@@ -1,0 +1,56 @@
+/*start Theme*/
+.sidebar .sidebar-content{
+    display: flex;
+    justify-content: center;
+}
+.sidebar .sidebar-content .Theme{
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+}
+.sidebar .sidebar-content .themeBtn{
+    appearance: none;
+    width: 55px;
+    height: 29.5px;
+    position: relative;
+    border-radius: 25px;
+    background-color: var(--color-darkest);
+    box-shadow: 0px 0px 5px 0px #000;
+    transition: ease-in-out .5s;
+}
+
+.sidebar .sidebar-content .circle{
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    border: 1px solid var(--color-light-dark);
+    border-radius: 50%;
+    background-color: #444;
+    color: var(--color-light);
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+/*hover*/
+/* .sidebar .sidebar-content  .circle:hover{
+    background-color: var(--color-light);
+} */
+/*active*/
+.sidebar .sidebar-content .light .themeBtn{
+    background-color: #fafafa;
+}
+.sidebar .sidebar-content .light .circle{
+    left: 27px;
+    background-color: #e7e7e7;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+/*end Theme*/
