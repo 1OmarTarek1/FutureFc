@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.98c535fd.css",
-    "main.js": "/FutureFc/static/js/main.ce2d17b6.js",
+    "main.css": "/FutureFc/static/css/main.fc2cd6d4.css",
+    "main.js": "/FutureFc/static/js/main.0644268b.js",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.9311f83eb2938c46c3c4.jpg",
     "static/media/Facebook.mp4": "/FutureFc/static/media/Facebook.4ffba5ca16a81852a375.mp4",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.eabc4be64c8bdf23606b.jpg",
@@ -64,11 +64,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.98c535fd.css.map": "/FutureFc/static/css/main.98c535fd.css.map",
-    "main.ce2d17b6.js.map": "/FutureFc/static/js/main.ce2d17b6.js.map"
+    "main.fc2cd6d4.css.map": "/FutureFc/static/css/main.fc2cd6d4.css.map",
+    "main.0644268b.js.map": "/FutureFc/static/js/main.0644268b.js.map"
   },
   "entrypoints": [
-    "static/css/main.98c535fd.css",
-    "static/js/main.ce2d17b6.js"
+    "static/css/main.fc2cd6d4.css",
+    "static/js/main.0644268b.js"
   ]
 }
