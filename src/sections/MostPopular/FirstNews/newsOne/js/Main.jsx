@@ -9,7 +9,7 @@ import '../css/heroIn.css'
 
 
 const OPTIONS = { loop: true }
-const SLIDE_COUNT = 10
+const SLIDE_COUNT = 6
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 const Main = () => {

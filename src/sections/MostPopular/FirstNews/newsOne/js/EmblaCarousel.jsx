@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Thumb } from './EmblaCarouselThumbsButton'
-import Autoplay from 'embla-carousel-autoplay'
+// import Autoplay from 'embla-carousel-autoplay'
 import imageByIndex from './imageByIndex'
 
 const EmblaCarousel = (props) => {
@@ -9,7 +9,7 @@ const EmblaCarousel = (props) => {
   
   const { slides, options } = props
   const [selectedIndex, setSelectedIndex] = useState(0)
-  const [emblaMainRef, emblaMainApi] = useEmblaCarousel(options, [Autoplay()])
+  const [emblaMainRef, emblaMainApi] = useEmblaCarousel(options) // (options, [Autoplay()])
   const [emblaThumbsRef, emblaThumbsApi] = useEmblaCarousel({
     containScroll: 'keepSnaps',
     dragFree: true

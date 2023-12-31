@@ -20,6 +20,7 @@
     "react-headroom": "^3.2.1",
     "react-hooks-use-previous": "^1.1.1",
     "react-icons": "^4.11.0",
+    "react-lazy-load-image-component": "^1.6.0",
     "react-router-dom": "^6.15.0",
     "react-router-hash-link": "^2.4.3",
     "react-router-use-history": "^1.1.0",

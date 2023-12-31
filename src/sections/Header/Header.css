@@ -89,8 +89,8 @@
     gap: 6px;
 }
 .cyborg-navbar .maker span{  
-    width: 20px;
-    height: 1px;
+    width: 22px;
+    height: 2px;
     z-index: 2050;
     background-color: var(--active-color);
     transition: all .3s;
@@ -103,7 +103,7 @@
 }
 .cyborg-navbar .activeBtn span:nth-child(1){
     position: relative;
-    top: 1px;
+    top: 2px;
     transform: rotate(-45deg);
 }
 .cyborg-navbar .activeBtn span:nth-child(3){

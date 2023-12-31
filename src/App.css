@@ -11,6 +11,7 @@
     --section-bg-color       : var(--color-dark);
     --header-bg-color        : var(--color-darkest);
     --nestedNav-bg-color     : var(--color-dark);
+    --sidebar-bg-color       : var(--color-dark);
     --header-text-color      : var(--color-light-dark);
     --active-color           : var(--color-primary);
     --text-color             : var(--color-light-dark);
@@ -68,6 +69,7 @@
     --header-bg-color        : var(--color-primary);
     --header-text-color      : var(--color-light);
     --nestedNav-bg-color     : var(--color-primary-light);
+    --sidebar-bg-color       : rgb(255, 166, 0);
     --active-color           : var(--color-darkest);
     --text-color             : var(--color-dark);
     --border-color           : #ffffff2d;
@@ -99,6 +101,7 @@ body{
     background-color: var(--body-bg-color);
     font-family     : var(--font-family-primary);
 }
+
 
 ul{
     list-style-type: none;

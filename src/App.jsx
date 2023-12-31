@@ -19,9 +19,12 @@ import Headroom from 'react-headroom';
 //to make scroll go to top on change components
 import ScrollToTop from './components/ScrollToTop';
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
+import { useEffect } from 'react';
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 import { Header, SecondHeader, Footer, LoginBox, Sidebar } from './sections/index'
@@ -50,6 +53,15 @@ const App = () => {
     // NOTE !! =>>  ( When u Search about something in any page after click maybe scroll will stop 
     // and I Think the problem in the ScrollToTop.js file That file have function make scrolling to 
     // top in every component change )
+
+    useEffect(() => {
+        let AllImages = document.querySelectorAll("img")
+        AllImages.forEach(img => {
+            img.setAttribute('loading', 'lazy');
+            // img.setAttribute('effect', 'blur');
+            // img.replaceWith(LazyLoadImage)
+        });
+    })
     return(
         <>
             <Router basename='/FutureFc'> 
