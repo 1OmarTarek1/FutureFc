@@ -10,11 +10,7 @@ const GamingLibraryCard = (props) => {
     return(
         <div 
             className='gaming-library-item'>
-            <ul             
-                data-aos="fade-up"
-                data-aos-offset="300"
-                data-aos-easing="ease-out"
-                data-aos-anchor-placement="top-bottom">
+            <ul>
             <li className='btn-li'>                            
                     <SecondaryBtn>
                         <Link className='path-over pri-color' to={props.to_path}>

@@ -20,7 +20,7 @@ const TrainTime = () =>{
 
     return(
         <>
-        <div className='TrainTime-page' id='TrainingTime'>
+        <div className='TrainTime-page' id='TrainingTime' data-aos="fade-up">
         <SectionWrapper>
                 <SectionHeader>
                     <span className='related-title'>

@@ -18,7 +18,7 @@ const  TrainTimeCard = (props) =>{
             <div className='card-wrapper-related-games'>
 
                 <div className='img-train'>
-                    <img className='img-fluid' src={props.image} alt='' />
+                    <img className='img-fluid' src={props.image} alt='' width={"125px"}/>
                     <span className='txt'>
                         <h5 className='related-games-item-title'>
                             {props.title}

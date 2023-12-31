@@ -9,7 +9,7 @@ import {
 } from './EmblaCarouselArrowsDotsButtons'
 
 import imageByIndex from './imageByIndex'
-import 'react-lazy-load-image-component/src/effects/blur.css';
+// import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 const EmblaCarousel = (props) => {
@@ -67,7 +67,7 @@ const EmblaCarousel = (props) => {
                   className="embla__slide__img"
                   src={imageByIndex(index)}
                   alt="Your alt text"
-                  effect='blur'
+                  loading='original'
                 />
               </div>
             ))}

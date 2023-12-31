@@ -22,25 +22,19 @@ const MostPopular = () =>{
 
                     <div className="this-div">
                         <div className="firstNews">
-                            <div    className="up" 
-                                    data-aos="fade-right"
-                                    data-aos-offset="100"
-                                    data-aos-easing="ease-in-sine">
+                            <div    className="up" >
                                 <FirstNews />
                             </div>
                             <div className="down">
                                 <div className="left" >
                                     <FourthNews />
                                 </div>
-                                <div className="right" 
-                                data-aos="fade-up"
-                                data-aos-offset="200"
-                                data-aos-duration="500">
+                                <div className="right" >
                                     <ThirdNews />                                       
                                 </div>
                             </div>
                         </div>
-                        <div className="secondNews" data-aos="fade-down">
+                        <div className="secondNews">
                             <SecondNews />
                         </div>
                     </div>
@@ -50,9 +44,7 @@ const MostPopular = () =>{
                 <PrimaryBtn>
                     <Link 
                         to="/News" 
-                        className='sec-color' 
-                        data-aos="zoom-in"
-                        data-aos-duration="500">
+                        className='sec-color'>
                         المزيد من الاخبار
                     </Link>
                 </PrimaryBtn>

@@ -24,7 +24,7 @@ const Themes = () => {
             setActiveTheme(false)
             setActiveCircle(false)            
         }
-    }, [ activeCircle, activeTheme ]);
+    }, [ activeCircle, activeTheme, selectedTheme ]);
     const toggleTheme = ( e ) => {
         if ( e.target.checked ) {
             setLightMode()

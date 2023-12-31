@@ -3,6 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBAccordion, MDBAcco
 import { HashLink } from 'react-router-hash-link';
 import footerIcon from '../../assets/images/logoFoot.png'
 import './Footer.css'
+import { Link } from 'react-router-dom';
 
 const footer = () => {
     return (
@@ -39,15 +40,18 @@ const footer = () => {
             <MDBRow className='mt-3'>
                 <MDBCol md="4" lg="4" xl="3" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>
-                    <span>
-                        <img 
-                        className='footerIcon img-fluid' 
-                        src={footerIcon} 
-                        alt='' 
-                        style={{width:"30px", marginRight:"10px"}}
-                        />
-                    </span>
-                    Future Academy
+                    <Link to={"/"} style={{color:"var(--color-light-dark)"}}>
+                        <span>
+                                <img 
+                                className='footerIcon img-fluid' 
+                                src={footerIcon} 
+                                alt='' 
+                                width="30px"
+                                style={{marginRight:"10px"}}
+                                />
+                        </span>
+                        Future Academy
+                    </Link>
                 </h6>
                 <p>
                     Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
