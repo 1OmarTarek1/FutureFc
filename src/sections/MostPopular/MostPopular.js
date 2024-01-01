@@ -14,7 +14,7 @@ const MostPopular = () =>{
 
     return(
         <>
-            <div className='mostNews' id="News" data-aos="fade-up">
+            <div className='mostNews' id="News" data-aos="fade">
                 <SectionWrapper>
                     <span className='media-title'>
                         <SectionHeader> <FaNewspaper />بعض الاخبار <em>الحصرية</em></SectionHeader>

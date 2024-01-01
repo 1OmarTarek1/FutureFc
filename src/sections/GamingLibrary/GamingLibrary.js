@@ -28,7 +28,7 @@ const GamingLibrary = () => {
         <>
         <div    className='section-media'
                 id='SomeTeams'
-                data-aos="fade-up">
+                data-aos="fade">
             <SectionWrapper>
                 <span className='media-gm-title'>
                     <SectionHeader> <FaFutbol style={{fontSize:"45px" }}/> بعض الفرق <em>الحالية</em> </SectionHeader>

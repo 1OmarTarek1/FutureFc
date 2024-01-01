@@ -58,8 +58,6 @@ const App = () => {
         let AllImages = document.querySelectorAll("img")
         AllImages.forEach(img => {
             img.setAttribute('loading', 'lazy');
-            // img.setAttribute('effect', 'blur');
-            // img.replaceWith(LazyLoadImage)
         });
     })
     return(
