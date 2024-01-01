@@ -1,5 +1,7 @@
-.container{
+
+.cyborg-navbar .container{
     position: relative;
+    max-width: 100%;
 }
 
 .cyborg-navbar{
@@ -93,7 +95,7 @@
     height: 2px;
     z-index: 2050;
     background-color: var(--active-color);
-    transition: all .3s;
+    transition: all .1s;
 }
 .cyborg-navbar .activeBtn{
     gap: 0px;

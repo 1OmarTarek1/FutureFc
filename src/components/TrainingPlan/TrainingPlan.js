@@ -8,6 +8,7 @@ import './TrainingPlan.css'
 const TrainingPlan = () => {
   return (
     <>
+    <div className='TrainingPlan'>
                 {/* <!-- Tabs navs --> */}
                 <ul className="trainingPlans nav nav-tabs" id="ex1" role="tablist">
                     <li className="nav-item" role="presentation">
@@ -110,6 +111,7 @@ const TrainingPlan = () => {
                 </div>
                 {/* <!-- Tabs content --> */}
             </SectionWrapper>
+    </div>
     </>
   )
 }

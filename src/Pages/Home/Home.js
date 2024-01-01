@@ -2,7 +2,7 @@
 import './Home.css'
 
 
-import {  Hero, MostPopular, GamingLibrary, TrainTime  } from '../../sections'
+import { MostPopular, GamingLibrary, TrainTime  } from '../../sections'
 
 
 
@@ -14,11 +14,10 @@ const Home = () =>{
 
     return(
         <>
-        <div id='home'>
-            <Hero />
-            <MostPopular />
-            <GamingLibrary />
-            <TrainTime />
+        <div id='home' className='homePage'>
+                <MostPopular />
+                <GamingLibrary />
+                <TrainTime />
         </div>
         </>
     )

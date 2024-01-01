@@ -22,12 +22,11 @@ import ScrollToTop from './components/ScrollToTop';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
-
 import { useEffect } from 'react';
 // import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
-import { Header, SecondHeader, Footer, LoginBox, Sidebar } from './sections/index'
+import { Header, SecondHeader, Footer, LoginBox, Sidebar, Hero } from './sections/index'
 import { 
         Home,      
         Profile, 
@@ -54,22 +53,27 @@ const App = () => {
     // and I Think the problem in the ScrollToTop.js file That file have function make scrolling to 
     // top in every component change )
 
+
     useEffect(() => {
         let AllImages = document.querySelectorAll("img")
         AllImages.forEach(img => {
             img.setAttribute('loading', 'lazy');
         });
-    })
+    });
+
+
     return(
         <>
             <Router basename='/FutureFc'> 
-                
                 <Headroom>
                     <Header /> 
                 </Headroom>
+                <Hero />
                 <SecondHeader />
+                
                 <LoginBox />
                 <Sidebar />
+
                 <Container>
                     <Routes>
                         <Route     path = '/'             element = {<  Home     />}  />
@@ -91,7 +95,6 @@ const App = () => {
                 </Container>
 
                 <UpButton />
-                
                 <Footer />
                 <ScrollToTop />
             </Router>

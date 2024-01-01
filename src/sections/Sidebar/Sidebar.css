@@ -7,7 +7,7 @@
     height: 100%;
     background-color: var(--sidebar-bg-color);
     /* backdrop-filter: blur(20px); */
-    transition: ease-out .5s;
+    transition: ease-out .3s;
 }
 .activeSideBar{
     left: 0px;
@@ -31,17 +31,20 @@
     border: 1px solid var(--color-darkest);
     color: var(--color-light-dark);
     cursor: pointer;
+    opacity: .7;
     transition: all .3s;
 }
 .sidebar .sidebarBtn:hover{
     /* background-color: var(--color-primary); */
     border-color: var(--color-primary);
     color: var(--color-primary);
+    opacity: 1;
 }
 .sidebar .priBtn{
     background-color: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-light);
+    opacity: 1;
 }
 .sidebar .priBtn:hover{
     background-color: var(--color-primary);

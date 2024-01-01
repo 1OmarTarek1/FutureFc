@@ -67,10 +67,12 @@ const SecondHeader = () => {
 
     return (
         <>
-            <div className='container secLinksCont'>
-                <ul className='ulLinks'>
-                    { AllLinks }
-                </ul>
+            <div className="secondHeader">
+                <div className='container secLinksCont'>
+                    <ul className='ulLinks'>
+                        { AllLinks }
+                    </ul>
+                </div>
             </div>
         </>
     )

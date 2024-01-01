@@ -1,5 +1,5 @@
 
-import {  TrainTimeCard, SectionHeader, SectionWrapper, SecondaryBtn } from '../../../components'
+import {  TrainTimeCard, SectionHeader, SectionWrapper, PrimaryBtn } from '../../../components'
 
 import TrainTimeData from '../../../Data/TrainTimeData'
 import { Link } from 'react-router-dom'
@@ -21,7 +21,7 @@ const TrainTime = () =>{
     return(
         <>
         <div className='TrainTime-page' id='TrainingTime' data-aos="fade">
-        <SectionWrapper>
+            <SectionWrapper>
                 <SectionHeader>
                     <span className='related-title'>
                         <span>مواعيد</span> <em>التدريب</em>
@@ -33,13 +33,13 @@ const TrainTime = () =>{
                 </div>
 
                 <div className='view-all-games'>
-                    <SecondaryBtn >
+                    <PrimaryBtn >
                         <Link to="/Training">
                             التدريب 
                         </Link>
-                    </SecondaryBtn>
+                    </PrimaryBtn>
                 </div>
-        </SectionWrapper>
+            </SectionWrapper>
         </div>
         </>
     )

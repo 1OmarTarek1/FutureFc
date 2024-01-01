@@ -38,7 +38,7 @@ const GamingLibrary = () => {
                 </div>
             </SectionWrapper>
             <PrimaryBtn>
-                <Link to="/Connect" className=''>انضم لنا</Link>
+                <Link to="/Contact" className=''>انضم لنا</Link>
             </PrimaryBtn>
         </div>
 

@@ -44,12 +44,14 @@
 
 
 
-
+.TopStreamers-page .section-wrapper{
+    margin: 0;
+}
 .TopStreamers-page  .download-games-items {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 380px;
+    height: 380px !important;
     overflow-y:scroll;
     overflow-x: hidden;
     padding: 0px;

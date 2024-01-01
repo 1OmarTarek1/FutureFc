@@ -31,6 +31,9 @@
 .NewsPage .oneNewsBox{
     margin-bottom: 0;
 }
+.NewsPage .TopStreamers-page  .download-games-items{
+    height: 452px !important;
+}
 
 
 

@@ -59,7 +59,6 @@ export {default as MostPopularLiveStream} from './Streams/MostPopularLiveStream/
 
 
 // About | Page
-export {default as Future} from './Future/Future'
 export {default as Academy} from './Academy/Academy'
 export {default as Coaches} from './Coaches/Coaches'
 export {default as AboutCoaches} from './AboutCoaches/AboutCoaches'
