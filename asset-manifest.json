@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.cc2d2ee7.css",
-    "main.js": "/FutureFc/static/js/main.06913e93.js",
+    "main.css": "/FutureFc/static/css/main.f10ba1bc.css",
+    "main.js": "/FutureFc/static/js/main.ec7c14f7.js",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.ba793f405ec9d64c0671.jpg",
+    "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
+    "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.d9c533f909a7ad7e0472.jpg",
     "static/media/slide-4.jpg": "/FutureFc/static/media/slide-4.c3417b5a2b767c4808f3.jpg",
+    "static/media/slide-1.jpg": "/FutureFc/static/media/slide-1.a4614d16d7bcd63eaf07.jpg",
+    "static/media/slide-5.jpg": "/FutureFc/static/media/slide-5.cfcb1abd98f09a4126e0.jpg",
     "static/media/icon.ico": "/FutureFc/static/media/icon.2704312cecdbbb3e2d05.ico",
     "static/media/fa-solid-900.ttf": "/FutureFc/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.d9c533f909a7ad7e0472.jpg",
-    "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
     "static/media/2011.jpg": "/FutureFc/static/media/2011.8ef9902def87312292a8.jpg",
     "static/media/fa-brands-400.ttf": "/FutureFc/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/phoenix-01.jpg": "/FutureFc/static/media/phoenix-01.8d4218f0a619ca681530.jpg",
-    "static/media/slide-1.jpg": "/FutureFc/static/media/slide-1.a4614d16d7bcd63eaf07.jpg",
     "static/media/fa-solid-900.woff2": "/FutureFc/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/slide-5.jpg": "/FutureFc/static/media/slide-5.a8091a074584ea9fffa3.jpg",
     "static/media/slide-6.jpg": "/FutureFc/static/media/slide-6.c3417b5a2b767c4808f3.jpg",
     "static/media/clip-02.jpg": "/FutureFc/static/media/clip-02.0b8ba61bdff637bf3b7c.jpg",
     "static/media/player-04.jpg": "/FutureFc/static/media/player-04.65a2c8405245031c88a2.jpg",
@@ -57,11 +57,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.cc2d2ee7.css.map": "/FutureFc/static/css/main.cc2d2ee7.css.map",
-    "main.06913e93.js.map": "/FutureFc/static/js/main.06913e93.js.map"
+    "main.f10ba1bc.css.map": "/FutureFc/static/css/main.f10ba1bc.css.map",
+    "main.ec7c14f7.js.map": "/FutureFc/static/js/main.ec7c14f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc2d2ee7.css",
-    "static/js/main.06913e93.js"
+    "static/css/main.f10ba1bc.css",
+    "static/js/main.ec7c14f7.js"
   ]
 }
