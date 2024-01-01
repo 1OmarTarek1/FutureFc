@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.f10ba1bc.css",
-    "main.js": "/FutureFc/static/js/main.ec7c14f7.js",
+    "main.css": "/FutureFc/static/css/main.6d78b7ce.css",
+    "main.js": "/FutureFc/static/js/main.7238e6a3.js",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.ba793f405ec9d64c0671.jpg",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
     "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.d9c533f909a7ad7e0472.jpg",
@@ -31,19 +31,16 @@
     "static/media/fa-regular-400.ttf": "/FutureFc/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
     "static/media/2009.jpg": "/FutureFc/static/media/2009.07d9e3fcc9e2e06b7c94.jpg",
     "static/media/popular-01.jpg": "/FutureFc/static/media/popular-01.07d9e3fcc9e2e06b7c94.jpg",
-    "static/media/coaches-03.jpg": "/FutureFc/static/media/coaches-03.a7907e247cce7b8db440.jpg",
     "static/media/coach-04.jpg": "/FutureFc/static/media/coach-04.974a54205d8ef3521683.jpg",
     "static/media/videoImg.jpg": "/FutureFc/static/media/videoImg.9b4024e65bfb33f975db.jpg",
     "static/media/player-03.jpg": "/FutureFc/static/media/player-03.bb03cb4b56c80558ebba.jpg",
     "static/media/mdb-react-ui-kit.cjs": "/FutureFc/static/media/mdb-react-ui-kit.82d9bb4b87305ae7306f.cjs",
-    "static/media/coaches-01.jpg": "/FutureFc/static/media/coaches-01.778e35ee6fb9e92707d3.jpg",
     "static/media/phoenix-03.jpg": "/FutureFc/static/media/phoenix-03.4026cf6be3f713170652.jpg",
     "static/media/coach-01.jpg": "/FutureFc/static/media/coach-01.aa0b668020fca87ed0b4.jpg",
     "static/media/logoFoot.png": "/FutureFc/static/media/logoFoot.6f53b3e5ada66189397b.png",
     "static/media/profile.jpg": "/FutureFc/static/media/profile.7e220d8a749ff31feac9.jpg",
     "static/media/C-Ahmed.jpg": "/FutureFc/static/media/C-Ahmed.8632fb9473b5a44ae298.jpg",
     "static/media/coach-02.jpg": "/FutureFc/static/media/coach-02.3730d73b436eea3a9ae9.jpg",
-    "static/media/coaches-02.jpg": "/FutureFc/static/media/coaches-02.1d79c9fa3cfd0d3212e8.jpg",
     "static/media/coach-03.jpg": "/FutureFc/static/media/coach-03.b7434eb25953885cccce.jpg",
     "static/media/clip-04.jpg": "/FutureFc/static/media/clip-04.9778d6e6a6cc049b153f.jpg",
     "static/media/fa-regular-400.woff2": "/FutureFc/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
@@ -57,11 +54,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.f10ba1bc.css.map": "/FutureFc/static/css/main.f10ba1bc.css.map",
-    "main.ec7c14f7.js.map": "/FutureFc/static/js/main.ec7c14f7.js.map"
+    "main.6d78b7ce.css.map": "/FutureFc/static/css/main.6d78b7ce.css.map",
+    "main.7238e6a3.js.map": "/FutureFc/static/js/main.7238e6a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f10ba1bc.css",
-    "static/js/main.ec7c14f7.js"
+    "static/css/main.6d78b7ce.css",
+    "static/js/main.7238e6a3.js"
   ]
 }
