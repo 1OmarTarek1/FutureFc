@@ -1,5 +1,5 @@
 import './Training.css'
-import {  TopStreamers, LiveStreams, MostPopularLiveStream, TrainTime } 
+import {  TopStreamers, MostPopularLiveStream, TrainTime } 
 from '../../sections'
 
 
@@ -7,11 +7,8 @@ from '../../sections'
 const Training = () =>{
     return(
     <>
-    <div className='Streams-and-Streamers'>
-        <LiveStreams />
-        <TopStreamers />
-    </div>
         <MostPopularLiveStream />
+        <TopStreamers />
         <TrainTime />
     </>
     )

@@ -11,7 +11,7 @@
     margin-top: 0;
     top: -1px;
     opacity: .9;
-    background-color: var(--header-bg-color);
+    background-color: var(--header-bg-color) ;
     transition: all .3s;
 }
 .cyborg-navbar:hover{

@@ -1,12 +1,51 @@
-import './TopStreamers.css'
 
-
+import Slider from "react-slick";
 
 import { TopStreamersCard, SectionHeader, SectionWrapper } from '../../../components'
 
 import { TopStreamersData } from '../../../Data/mostPopularData'
+import './TopStreamers.css'
 
-const TopStreamers = () =>{
+
+    
+const TopStreamers = () => {
+        var settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            pauseOnHover: true,
+            rtl: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                    }
+                }
+            ]
+        };
+
 const cards = TopStreamersData.map(card => {
     return <TopStreamersCard 
     key={card.id}  
@@ -19,21 +58,24 @@ const cards = TopStreamersData.map(card => {
     return(
         <>
         <div className='TopStreamers-page'>
+        <SectionHeader>
+            <span className='related-title'>
+                <span>افضل</span> <em>اللاعبين</em>
+            </span>
+        </SectionHeader>
         <SectionWrapper>
-                <SectionHeader>
-                    <span className='related-title'>
-                        <span>افضل</span> <em>اللاعبين</em>
-                    </span>
-                </SectionHeader>
         
                 <ul className='download-games-items'>
+                <Slider {...settings}>
                     {cards}
+                </Slider>
                 </ul>
         </SectionWrapper>
         </div>
         </>
     )
 }
+
 
 
 export default TopStreamers

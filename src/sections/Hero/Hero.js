@@ -74,7 +74,7 @@ const Hero = () =>{
 
             </MDBCarousel>  
             <div className='heroFilter'></div>
-            <div className='hero-text'>
+            <div className='hero-text '>
                 <div className='img-wrapper'>
                     <img src={logo} alt='Future Logo' data-aos="zoom-out" data-aos-duration="1500" />
                     </div>

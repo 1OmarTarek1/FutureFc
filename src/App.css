@@ -68,7 +68,7 @@
     --nestedNav-bg-color     : var(--color-primary-light);
     --sidebar-bg-color       : rgb(255, 166, 0);
     --active-color           : var(--color-darkest);
-    --text-color             : var(--color-dark);
+    --text-color             : var(--color-light);
     --border-color           : #ffffff2d;
 }
 

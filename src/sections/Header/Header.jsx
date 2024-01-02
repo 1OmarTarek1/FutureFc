@@ -35,7 +35,7 @@ const Header = () => {
     return(
     <>
         <div 
-            className="cyborg-navbar navbar navbar-expand-md navbar-dark  sticky-top">
+            className="cyborg-navbar navbar navbar-expand-md navbar-dark">
             <div className="container">
                 <IconButton  setActiveButton={setActiveButton} activeButton={activeButton} />
 

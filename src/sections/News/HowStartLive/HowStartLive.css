@@ -17,15 +17,14 @@
 .info-card{
     direction: rtl;
     background-color: var(--color-dark);
-    padding: 30px 30px;
+    padding: 25px;
     border: 1px solid var(--color-light-dark);  
     border-radius: var(--border-radius-primary);
     transition: .2s;
     cursor: default;
 }
 .info-card:hover{
-    border: 1px solid var(--color-primary);
-    filter: drop-shadow(0px 0px 3px var(--color-primary));
+    border-color: var(--color-primary);
     color: var(--color-light);
 }
 .info-card:hover p,
@@ -48,9 +47,10 @@
 
 
 .info-card p{
+    font-size: 14px;
     max-width: 250px;
     margin-bottom: 0;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
     transition: .3s;
 }
 

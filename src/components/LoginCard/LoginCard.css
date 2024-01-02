@@ -52,7 +52,7 @@
 }
 .bigBox .ForgetPass-Box{
     transform: translate(-50% , -50%) scale(.0000000000000001);
-    /* opacity: 0; */
+    opacity: 0;
 }
 .bigBox .SignUp-Box,
 .bigBox .ForgetPass-Box{

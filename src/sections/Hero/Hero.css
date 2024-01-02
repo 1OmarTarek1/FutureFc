@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1200px) {
     .hero-main   .carousel-item {
-        height: calc(100vh - 71px);
+        height: calc(100vh - 70px - 45px);
         display: flex;
         align-items: center;
     }
@@ -103,8 +103,8 @@
     }
 
     .hero-text .img-wrapper img{
-        width: 200px;
-        height: 225px;
+        width: 275px;
+        height: 300px;
     }
     
     .hero-text h4{

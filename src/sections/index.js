@@ -54,7 +54,6 @@ export { default as Team2011 } from './TeamsPages/Team2011/Team2011'
 
 // Streams | Page
 export {default as TopStreamers} from './Streams/TopStreamers/TopStreamers'
-export {default as LiveStreams} from './Streams/LiveStreams/LiveStreams'
 export {default as MostPopularLiveStream} from './Streams/MostPopularLiveStream/MostPopularLiveStream'
 
 

@@ -1,5 +1,6 @@
 .TopStreamers-page {
     direction: rtl;
+    margin-bottom: var(--margin-primary);
 }
 .TopStreamers-page .related-title{
     display: flex;
@@ -11,6 +12,13 @@
 .TopStreamers-page  .section-header h4{
     margin-bottom: 0;
 }
+
+.TopStreamers-page .slick-track{
+    direction: rtl;
+}
+/* .TopStreamers-page .slick-dots{
+    
+} */
 
 
 
@@ -25,39 +33,23 @@
     width: 0px;
 }
 
-/* .TopStreamers-page  .download-games-items::-webkit-scrollbar-track {
-    background-color: var(--color-dark);
-}
-
-.TopStreamers-page  .download-games-items::-webkit-scrollbar-thumb {
-    background-color: var(--color-primary);
-}
-
-.TopStreamers-page  .download-games-items::-webkit-scrollbar-thumb:hover {
-    background-color: #e7457e;
-} */
-
-/*scroll*/
-
-
 
 
 
 
 .TopStreamers-page .section-wrapper{
     margin: 0;
+    padding: 0;
 }
 .TopStreamers-page  .download-games-items {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 380px !important;
-    overflow-y:scroll;
-    overflow-x: hidden;
     padding: 0px;
 }
 
 .TopStreamers-page  .download-games-items li{
+
     border-bottom: 1px solid var(--color-dark); 
     transition: .4s;
 }

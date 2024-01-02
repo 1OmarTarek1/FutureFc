@@ -47,36 +47,36 @@ const LoginBox = () => {
 
         loginLink.addEventListener('click', () => { // Open The Main Box
             BigBOx.style.transform = "translate(-50% , -50%) scale(1)"
-            // BigBOx.style.opacity = "1"
+            BigBOx.style.opacity = "1"
         })
         close.addEventListener('click', () => { // Close The Main Box
             BigBOx.style.transform = "translate(-50% , -50%) scale(0.0000001)"
-            // BigBOx.style.opacity = "0"
+            BigBOx.style.opacity = "0"
         })
 
         GoSignUp.addEventListener('click', () => { // Open SignUP Box
-            // Login_Box.style.opacity = "0"
+            Login_Box.style.opacity = "0"
             Login_Box.style.top = "1300px"
             SignUp_Box.style.top = "50%"
-            // SignUp_Box.style.opacity = "1"
+            SignUp_Box.style.opacity = "1"
         })
         GoLogin.addEventListener('click', () => { // Back To Login Box
-            // Login_Box.style.opacity = "1"
+            Login_Box.style.opacity = "1"
             Login_Box.style.top = "50%"
-            // SignUp_Box.style.opacity = "0"
+            SignUp_Box.style.opacity = "0"
             SignUp_Box.style.top = "-500px"
         })
 
         GoForgetPass.addEventListener('click', () => { // Open Forget Password Box
-            // Login_Box.style.opacity = "0"
+            Login_Box.style.opacity = "0"
             Login_Box.style.transform = "translate(-50%, -50%) scale(.0000000000000001)"
             ForgetPass_Box.style.transform = "translate(-50%, -50%) scale(1)"
-            // ForgetPass_Box.style.opacity = "1"
+            ForgetPass_Box.style.opacity = "1"
         })
         BackLogin.addEventListener('click', () => { // Back To Login Box
             Login_Box.style.transform = "translate(-50%, -50%) scale(1)"
-            // Login_Box.style.opacity = "1"
-            // ForgetPass_Box.style.opacity = "0"
+            Login_Box.style.opacity = "1"
+            ForgetPass_Box.style.opacity = "0"
             ForgetPass_Box.style.transform = "translate(-50%, -50%) scale(.0000000000000001)"
         })
 
