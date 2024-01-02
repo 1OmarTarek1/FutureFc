@@ -9,10 +9,10 @@
     display: flex;
     flex-direction: column;
     flex: 1 ;
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color);
     border-radius:calc( var(--border-radius-primary) / 2);
     padding: calc(var(--padding-primary) / 2);
-    border: 1px solid var(--color-darkest);
+    border: 1px solid var(--body-bg-color);
     transition: .2s all;
     margin: 0;
     cursor: default;
@@ -24,7 +24,7 @@
     filter: drop-shadow(0px 0px 5px var(--color-primary));
 }
 .most-card .card-wrapper:hover p{
-    color: #fff;
+    color: var(--active-color);
 }
 
 
@@ -61,13 +61,14 @@
     transition: all .3s;
     font-size: 13px;
 }
-.most-card .card-wrapper .cardContent p:hover{
+/* .most-card .card-wrapper .cardContent p:hover{
     color: #fff;
-}
+} */
 
 
 .most-card .card-wrapper .cardContent h6{
     padding-bottom: 5px;
+    color: var(--cardTitle-color);
 }
 
 .most-card .card-wrapper .secondaryBtn{

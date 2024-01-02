@@ -11,8 +11,10 @@
     --sidebar-bg-color       : var(--color-dark);
     --header-text-color      : var(--color-light-dark);
     --active-color           : var(--color-primary);
+    --cardTitle-color        : #FFF3E0;
     --text-color             : var(--color-light-dark);
-    --border-color           : var(--color-darkestPro );
+    --border-color           : var(--color-darkestPro);
+    --hero-color             : var(--body-bg-color);
 
 
 
@@ -21,10 +23,11 @@
     --color-dark             : #27292a;
     --color-darkest          : #1f2122;
     --color-darkestPro       : #222;
-    --color-light            : #eee;
-    --color-primary          : orange;
+    --color-light            : #FFF3E0;
+    --color-primary          : #FF9100;
     --color-primary-light    : rgb(233, 168, 48);
     --color-icons            : rgb(255, 255, 255);
+    
 
 
 
@@ -60,16 +63,18 @@
 }
 
 [data-theme='light'] {
-    --body-bg-color          : #fff;
-    --container-bg-color     : #e7e7e7;
+    --body-bg-color          : #FFF3E0;
+    --container-bg-color     : #FFE0B2;
     --section-bg-color       : #ddd;
     --header-bg-color        : var(--color-primary);
     --header-text-color      : var(--color-light);
     --nestedNav-bg-color     : var(--color-primary-light);
     --sidebar-bg-color       : rgb(255, 166, 0);
     --active-color           : var(--color-darkest);
-    --text-color             : var(--color-light);
+    --cardTitle-color        : var(--color-darkest);
+    --text-color             : var(--color-darkest);
     --border-color           : #ffffff2d;
+    --hero-color             : transparent;
 }
 
 

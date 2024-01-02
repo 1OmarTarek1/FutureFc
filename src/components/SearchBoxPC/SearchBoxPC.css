@@ -148,7 +148,7 @@
     left: -35px;
     padding: 6px 0;
     font-size: 14px;
-    background-color: #333;
+    background-color:var(--container-bg-color);
     cursor: default;
     transition: all .5s;
 }
@@ -189,7 +189,7 @@
 }
 .results-list .search-result:hover,
 .results-list .activeLine{
-    background-color: #3d3d3d;
+    background-color: var(--body-bg-color );
     color: var(--color-primary);
 }
 

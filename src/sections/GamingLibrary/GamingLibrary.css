@@ -6,9 +6,7 @@
     flex-wrap: wrap;
 }
 
-/* #SomeTeams{
-    scroll-snap-align: center;
-} */
+
 .section-media .gaming-library-cards img{
     width: 100%;
     height: 100%;

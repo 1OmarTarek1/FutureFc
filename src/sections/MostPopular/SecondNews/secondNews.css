@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     cursor: default;
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color);
     margin-left: 30px;
 }
 .newsTwo .how-start-live .all-info-cards{

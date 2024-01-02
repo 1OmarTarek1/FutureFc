@@ -13,7 +13,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient( 0deg, var(--body-bg-color), transparent, transparent );
+    background: linear-gradient( 0deg, var(--hero-color), transparent, transparent );
+    transition: all .3s;
 }
 .hero-main 
 .carousel-control-prev, 

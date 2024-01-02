@@ -4,6 +4,7 @@
     gap: 6px;
     font-size: 35px;
     margin: var(--margin-primary) 0px;
+    color: var(--active-color);
 }
 
 
@@ -16,7 +17,7 @@
 
 .info-card{
     direction: rtl;
-    background-color: var(--color-dark);
+    background-color: transparent;
     padding: 25px;
     border: 1px solid var(--color-light-dark);  
     border-radius: var(--border-radius-primary);
@@ -25,11 +26,13 @@
 }
 .info-card:hover{
     border-color: var(--color-primary);
-    color: var(--color-light);
+    color: var(--text-color);
 }
-.info-card:hover p,
-.info-card:hover h5{
-    color: var(--color-light);
+.info-card h5{
+    color: var(--cardTitle-color);
+}
+.info-card:hover p{
+    color: var(--active-color);
 }
 
 

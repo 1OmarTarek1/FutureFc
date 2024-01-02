@@ -14,7 +14,7 @@
 }
 .ulLinks li{
     padding: 3px 10px;
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color );
 }
 .ulLinks a{
     color: var(--color-light-dark);
