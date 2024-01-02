@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.6d78b7ce.css",
-    "main.js": "/FutureFc/static/js/main.7238e6a3.js",
+    "main.css": "/FutureFc/static/css/main.16822281.css",
+    "main.js": "/FutureFc/static/js/main.966838c4.js",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.ba793f405ec9d64c0671.jpg",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
-    "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.d9c533f909a7ad7e0472.jpg",
+    "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.c3417b5a2b767c4808f3.jpg",
     "static/media/slide-4.jpg": "/FutureFc/static/media/slide-4.c3417b5a2b767c4808f3.jpg",
-    "static/media/slide-1.jpg": "/FutureFc/static/media/slide-1.a4614d16d7bcd63eaf07.jpg",
-    "static/media/slide-5.jpg": "/FutureFc/static/media/slide-5.cfcb1abd98f09a4126e0.jpg",
+    "static/media/slide-1.jpg": "/FutureFc/static/media/slide-1.c3417b5a2b767c4808f3.jpg",
+    "static/media/slide-5.jpg": "/FutureFc/static/media/slide-5.c3417b5a2b767c4808f3.jpg",
     "static/media/icon.ico": "/FutureFc/static/media/icon.2704312cecdbbb3e2d05.ico",
     "static/media/fa-solid-900.ttf": "/FutureFc/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/2011.jpg": "/FutureFc/static/media/2011.8ef9902def87312292a8.jpg",
@@ -54,11 +54,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.6d78b7ce.css.map": "/FutureFc/static/css/main.6d78b7ce.css.map",
-    "main.7238e6a3.js.map": "/FutureFc/static/js/main.7238e6a3.js.map"
+    "main.16822281.css.map": "/FutureFc/static/css/main.16822281.css.map",
+    "main.966838c4.js.map": "/FutureFc/static/js/main.966838c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d78b7ce.css",
-    "static/js/main.7238e6a3.js"
+    "static/css/main.16822281.css",
+    "static/js/main.966838c4.js"
   ]
 }
