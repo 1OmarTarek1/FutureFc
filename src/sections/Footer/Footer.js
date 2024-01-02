@@ -14,22 +14,22 @@ const footer = () => {
             </div>
 
             <div>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="facebook-f" />
             </HashLink>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="twitter" />
             </HashLink>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="google" />
             </HashLink>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="instagram" />
             </HashLink>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="linkedin" />
             </HashLink>
-            <HashLink to='#!' className='me-4 text-reset'>
+            <HashLink to='#!' className='text-reset' style={{marginInline:"10px"}}>
                 <MDBIcon fab icon="github" />
             </HashLink>
             </div>
