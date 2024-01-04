@@ -26,10 +26,9 @@
     display: grid;
     place-items: center;
     font-size: 14px;
-    backdrop-filter: blur(20px);
-    background-color: var(--color-dark);
-    border: 1px solid var(--color-darkest);
-    color: var(--color-light-dark);
+    background-color: var(--container-bg-color);
+    border: 1px solid var(--container-bg-color);
+    color: var(--header-text-color);
     cursor: pointer;
     opacity: .7;
     transition: all .3s;
@@ -41,13 +40,19 @@
     opacity: 1;
 }
 .sidebar .priBtn{
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--sidebar-bg-color);
+    border-color: var(--sidebar-bg-color);
+    /* background-color: var(--color-primary); */
+    /* border-color: var(--color-primary); */
     color: var(--color-light);
     opacity: 1;
 }
 .sidebar .priBtn:hover{
-    background-color: var(--color-primary);
+    background-color: var(--sidebar-bg-color);
     border-color: var(--color-primary);
     color: var(--color-light);
 }

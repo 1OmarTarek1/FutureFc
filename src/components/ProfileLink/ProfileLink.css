@@ -14,8 +14,8 @@
     font-size: 13px;
     font-weight: 700;
     border-radius: 40px;
-    color: var(--color-light-dark);
-    background-color: var(--color-dark);
+    color: var(--header-text-color);
+    background-color: var(--container-bg-color);
     transition: all .2s;
 }
 

@@ -22,7 +22,7 @@ import ScrollToTop from './components/ScrollToTop';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 // import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
@@ -54,12 +54,12 @@ const App = () => {
     // top in every component change )
 
 
-    useEffect(() => {
-        let AllImages = document.querySelectorAll("img")
-        AllImages.forEach(img => {
-            img.setAttribute('loading', 'lazy');
-        });
-    });
+    // useEffect(() => {
+    //     let AllImages = document.querySelectorAll("img")
+    //     AllImages.forEach(img => {
+    //         img.setAttribute('loading', 'lazy');
+    //     });
+    // });
 
 
     return(

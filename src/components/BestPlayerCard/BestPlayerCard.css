@@ -2,8 +2,8 @@
     flex: 1 20%;
     padding: 10px;
     margin-bottom: 1%;
-    background-color: var(--color-dark);
-    border: 1px solid var(--color-darkest);
+    background-color: var(--container-bg-color);
+    border: 1px solid var(--body-bg-color);
     border-radius: 10px;
     cursor: default;
     transition: all .3s;

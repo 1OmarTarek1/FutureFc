@@ -50,7 +50,7 @@
     margin-bottom: 0;
     font-size: 14px;
     line-height: 1.5rem;
-    background-color: var(--color-darkest);
+    background-color: var(--body-bg-color);
     transition: all .3s;
 }
 /*hover effect*/
@@ -65,7 +65,7 @@
     color: var(--color-primary);
 }
 .coaches .nav-link:hover .about-coach{
-    color: var(--color-primary) !important;
+    color: var(--active-color) !important;
 }
 /*active class*/
 .coaches .active img {
@@ -79,7 +79,7 @@
     color: var(--color-primary);
 }
 .coaches .active .about-coach{
-    color: var(--color-primary) !important;
+    color: var(--active-color) !important;
 }
 /*coachCard*/
 

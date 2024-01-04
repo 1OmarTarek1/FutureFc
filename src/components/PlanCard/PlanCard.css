@@ -7,15 +7,15 @@
     justify-content: space-between;
     height: 350px;
     padding: 4px;
-    border: 1px solid var(--color-darkest);
-    background-color: var(--color-darkest);
+    border: 1px solid var(--body-bg-color);
+    background-color: var(--body-bg-color);
     cursor: default;
     transition: all .3s;
 }
 .connectPage .plan ul > li {
     width: calc(100%);
     padding-bottom: 15px;
-    border-bottom: 1px solid var(--color-dark);
+    border-bottom: 1px solid var(--container-bg-color);
     transition: all .3s;
 }
 
@@ -27,7 +27,7 @@
     padding: 13px 0;
     text-align: center;
     font-size: 18px;
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color);
     transition: all .3s;
 }
 .connectPage .plansAll .cost{
@@ -142,7 +142,7 @@
 
 /*li border*/
 .connectPage .activePlan ul > li {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--container-bg-color);
 }
 /*start icon*/
 .connectPage .activePlan .starPlan{

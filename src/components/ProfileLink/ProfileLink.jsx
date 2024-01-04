@@ -66,7 +66,7 @@ const ProfileLink = () => {
                     <i className="fa-solid fa-user"
                     style={{ display:"grid", placeContent:"center",
                     width:"33px", height:"33px", 
-                    borderRadius:"50%", backgroundColor:"var(--color-darkest)"}} />
+                    borderRadius:"50%", backgroundColor:"var(--body-bg-color)"}} />
                 </div>
             </div>
         </div>

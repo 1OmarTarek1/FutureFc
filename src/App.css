@@ -63,13 +63,13 @@
 }
 
 [data-theme='light'] {
-    --body-bg-color          : #FFF3E0;
-    --container-bg-color     : #FFE0B2;
+    --body-bg-color          : #FFB74D;
+    --container-bg-color     : #FFCC80;
     --section-bg-color       : #ddd;
     --header-bg-color        : var(--color-primary);
     --header-text-color      : var(--color-light);
     --nestedNav-bg-color     : var(--color-primary-light);
-    --sidebar-bg-color       : rgb(255, 166, 0);
+    --sidebar-bg-color       : var(--color-primary);
     --active-color           : var(--color-darkest);
     --cardTitle-color        : var(--color-darkest);
     --text-color             : var(--color-darkest);

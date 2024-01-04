@@ -31,11 +31,11 @@
 }
 .ContactUs .content form .main-input {
     padding: 20px;
-    border: 1px solid #444;
+    border: 1px solid var(--text-color);
     margin-bottom: 30px;
     font-size: 14px;
-    color: var(--color-light);
-    background-color: var(--color-dark);
+    color: var(--text-color);
+    background-color: var(--container-bg-color);
 }
 .ContactUs .content form .main-input:focus {
     box-shadow: none;
@@ -44,6 +44,9 @@
 .ContactUs .content form .main-input,
 .ContactUs .content form .main-input::placeholder {
     font-size: 14px;
+}
+.ContactUs .content form .main-input::placeholder {
+    color: var(--text-color);
 }
 
 

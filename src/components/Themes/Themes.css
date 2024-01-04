@@ -44,11 +44,11 @@
 } */
 /*active*/
 .sidebar .sidebar-content .light .themeBtn{
-    background-color: #fafafa;
+    background-color: var(--container-bg-color);
 }
 .sidebar .sidebar-content .light .circle{
     left: 27px;
-    background-color: #e7e7e7;
+    background-color: var(--color-light);
     color: var(--color-primary);
     border: 1px solid var(--color-primary);
 }
