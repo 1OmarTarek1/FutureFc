@@ -8,7 +8,7 @@
     --section-bg-color       : var(--color-dark);
     --header-bg-color        : var(--color-darkest);
     --nestedNav-bg-color     : var(--color-dark);
-    --sidebar-bg-color       : var(--color-dark);
+    --sidebar-bg-color       : var(--color-darkest);
     --header-text-color      : var(--color-light-dark);
     --active-color           : var(--color-primary);
     --cardTitle-color        : #FFF3E0;
@@ -61,7 +61,7 @@
     --font-txt-small               : 10px;
 
 }
-
+/* #FFB74D #FFCC80 #E65100 #FF6D00 */
 [data-theme='light'] {
     --body-bg-color          : #FFB74D;
     --container-bg-color     : #FFCC80;

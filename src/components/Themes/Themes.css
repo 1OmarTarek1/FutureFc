@@ -1,12 +1,8 @@
 /*start Theme*/
-.sidebar .sidebar-content{
-    display: flex;
-    justify-content: center;
-}
+
 .sidebar .sidebar-content .Theme{
     position: relative;
     display: flex;
-    margin-top: 150px;
 }
 .sidebar .sidebar-content .themeBtn{
     appearance: none;

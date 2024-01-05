@@ -25,7 +25,7 @@ const FourthNews = () =>{
 
         <>
         <div className='vidCard' 
-        style={{direction:"rtl", backgroundColor:"var(--color-dark)",padding:"10px 10px 10px 10px",marginBottom:"30px"}}>
+        style={{direction:"rtl", backgroundColor:"var(--container-bg-color)",padding:"10px 10px 10px 10px",marginBottom:"30px"}}>
             <h5>كلمة رئيس النادي :</h5>
             <span style={{fontSize:"12.5px", color:"var(--color-light-dark)"}}>رسالة رئيس النادي الموجه لادارة البطولة</span>
                 

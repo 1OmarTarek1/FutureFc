@@ -60,7 +60,7 @@
     border: 1px solid var(--color-primary);
     box-shadow: none;
     outline: none;
-    background-color: var(--color-dark);
+    background-color: var(--container-bg-color);
     color: var(--color-primary);
     opacity: .7;
     transition: all .3s;
