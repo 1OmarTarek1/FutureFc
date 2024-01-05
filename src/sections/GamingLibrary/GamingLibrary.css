@@ -1,5 +1,6 @@
 #SomeTeams{
     margin-bottom: var(--margin-primary);
+    position: relative;
 }
 .gaming-library-cards{
     display: flex;

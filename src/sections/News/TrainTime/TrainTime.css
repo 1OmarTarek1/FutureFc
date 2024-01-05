@@ -1,5 +1,6 @@
 .TrainTime-page {
     margin-bottom: 70px;
+    position: relative;
 }
 .TrainTime-page .related-title {
     direction: rtl;

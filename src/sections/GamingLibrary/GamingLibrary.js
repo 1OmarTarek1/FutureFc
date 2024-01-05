@@ -26,7 +26,7 @@ const GamingLibrary = () => {
 
     return(
         <>
-        <div    className='section-media'
+        <div className='section-media'
                 id='SomeTeams'
                 data-aos="fade">
             <SectionWrapper>
