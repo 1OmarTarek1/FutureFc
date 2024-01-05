@@ -65,7 +65,7 @@ const App = () => {
     return(
         <>
         {/* /FutureFc */}
-            <Router basename=''> 
+            <Router basename='/FutureFc'> 
                 <Headroom>
                     <Header /> 
                 </Headroom>
