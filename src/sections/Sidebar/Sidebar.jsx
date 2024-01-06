@@ -11,7 +11,6 @@ const Sidebar = () => {
     const [ activeSpin, setActiveSpin ] = useState(false)
 
     useEffect(() => {
-        
         let items = document.querySelectorAll('.item')  ; 
         items.forEach( item => {
             item.addEventListener('click', () => {
@@ -26,14 +25,20 @@ const Sidebar = () => {
             items.forEach( item => {
                 item.removeEventListener('click', () => {
                     let active = document.querySelector('.activeSidebarItem');
-                    item.classList.add('activeSidebarItem');
                     active.classList.remove('activeSidebarItem');
+                    item.classList.add('activeSidebarItem');
                 });
             });
         }
     });
 
     let handelClick = () => {
+        let active = document.querySelector('.activeSidebarItem');
+        let notItem = document.querySelector('.notItem');
+        if(activeSideBar){
+            active.classList.remove('activeSidebarItem');
+            notItem.classList.add('activeSidebarItem');
+        };
         setActiveSideBar(!activeSideBar)
         setActiveSpan(!activeSpan)
         setActiveSpin(!activeSideBar)
@@ -43,7 +48,7 @@ const Sidebar = () => {
         <>
         <div className={ activeSideBar ? 'sidebar activeSideBar' : 'sidebar' }>
             <div className='sidebar-content'>
-                <HashLink to={"/Profile"}>
+                <HashLink to={"/Profile"} onClick={handelClick}>
                     <div className="profileAccount">
                         <div className="profileImg">
                             <img className='img-fluid' src={profileImg} alt="" />
@@ -56,8 +61,10 @@ const Sidebar = () => {
                 </HashLink>
 
                 <ul className='sideBarItems'>
+                    {/* for making active class not make error */}
+                    <li className="notItem item activeSidebarItem d-none"></li> 
                     <HashLink to={"/"}>
-                        <li className="item activeSidebarItem">
+                        <li className="item ">
                             <span>
                                 <i className="fa-solid fa-house" />
                                 <span>Home</span>
@@ -96,10 +103,18 @@ const Sidebar = () => {
                             </span>
                         </li>
                     </HashLink>
+                    <HashLink to={"#!"}>
+                        <li className="item">
+                            <span>
+                                <i className="fa-solid fa-gear" />
+                                <span>Settings</span>
+                            </span>
+                        </li>
+                    </HashLink>
                 </ul>
 
                 <div className="sideBarFooter">
-                    <div className="item out">
+                    <div className="item out" onClick={handelClick}>
                         <span>
                             <i className="fa-solid fa-arrow-right-from-bracket" />
                             <span>Logout</span>
@@ -116,7 +131,7 @@ const Sidebar = () => {
                 
             </div>
             <div className={ activeSpan ? 'sidebarBtn priBtn' : 'sidebarBtn'} onClick={handelClick}>
-                <i className={ activeSpin ? 'fa-solid fa-gear fa-spin' : 'fa-solid fa-gear'} />
+                <i className={ activeSpin ? 'fa-solid fa-list fa-fade' : 'fa-solid fa-list'} />
             </div>
         </div>
         </>
