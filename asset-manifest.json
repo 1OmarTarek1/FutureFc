@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.0df69a48.css",
-    "main.js": "/FutureFc/static/js/main.e9aac287.js",
+    "main.css": "/FutureFc/static/css/main.f022bd15.css",
+    "main.js": "/FutureFc/static/js/main.5b495a88.js",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.ba793f405ec9d64c0671.jpg",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
     "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.c3417b5a2b767c4808f3.jpg",
@@ -54,11 +54,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.0df69a48.css.map": "/FutureFc/static/css/main.0df69a48.css.map",
-    "main.e9aac287.js.map": "/FutureFc/static/js/main.e9aac287.js.map"
+    "main.f022bd15.css.map": "/FutureFc/static/css/main.f022bd15.css.map",
+    "main.5b495a88.js.map": "/FutureFc/static/js/main.5b495a88.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df69a48.css",
-    "static/js/main.e9aac287.js"
+    "static/css/main.f022bd15.css",
+    "static/js/main.5b495a88.js"
   ]
 }
