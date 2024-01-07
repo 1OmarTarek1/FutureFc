@@ -2,9 +2,13 @@
     margin-bottom: var(--margin-primary);
     position: relative;
 }
-.gaming-library-cards{
+.SomeTeams .gaming-library-cards{
     display: flex;
     flex-wrap: wrap;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    background-color: var(--body-bg-color);
+
 }
 
 

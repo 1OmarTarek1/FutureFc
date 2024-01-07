@@ -1,15 +1,22 @@
+.newsTwo {
+background-color: var(--body-bg-color);
+margin-left: 20px;
+}
 .newsTwo .how-start-live {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-left: 30px; */
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    background-color: var(--body-bg-color);
     cursor: default;
-    background-color: var(--container-bg-color);
-    margin-left: 30px;
 }
 .newsTwo .how-start-live .all-info-cards{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
 }
 .newsTwo .how-to-start-title {
     margin: 25px 0 0 0;

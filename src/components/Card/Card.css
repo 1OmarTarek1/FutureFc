@@ -9,10 +9,10 @@
     display: flex;
     flex-direction: column;
     flex: 1 ;
-    background-color: var(--container-bg-color);
+    background-color: var(--body-bg-color);
     border-radius:calc( var(--border-radius-primary) / 2);
     padding: calc(var(--padding-primary) / 2);
-    border: 1px solid var(--body-bg-color);
+    border: 1px solid var(--container-bg-color);
     transition: .2s all;
     margin: 0;
     cursor: default;

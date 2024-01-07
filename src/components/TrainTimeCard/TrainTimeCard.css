@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 15px;
-    padding: 20px 0px;
+    padding: 20px 0;
     position: relative;
     border-bottom: 1px solid var(--color-dark);
     background-color: var(--body-bg-color);

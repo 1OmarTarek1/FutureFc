@@ -63,15 +63,15 @@ const Sidebar = () => {
                 <ul className='sideBarItems'>
                     {/* for making active class not make error */}
                     <li className="notItem item activeSidebarItem d-none"></li> 
-                    <HashLink to={"/"}>
-                        <li className="item ">
+                    <HashLink to={"/"} onClick={handelClick}>
+                        <li className="item">
                             <span>
                                 <i className="fa-solid fa-house" />
                                 <span>Home</span>
                             </span>
                         </li>
                     </HashLink>
-                    <HashLink to={"/#News"}>
+                    <HashLink to={"/#News"} onClick={handelClick}>
                         <li className="item">
                             <span>
                                 <i className="fa-regular fa-newspaper" />
@@ -79,7 +79,7 @@ const Sidebar = () => {
                             </span>
                         </li>
                     </HashLink>
-                    <HashLink to={"/Training#TrainingTime"}>
+                    <HashLink to={"/Training#TrainingTime"} onClick={handelClick}>
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-calendar-days" />
@@ -87,7 +87,7 @@ const Sidebar = () => {
                             </span>
                         </li>
                     </HashLink>
-                    <HashLink to={"/Contact#SubscribePlans"}>
+                    <HashLink to={"/Contact#SubscribePlans"} onClick={handelClick}>
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-user-plus" />
@@ -95,7 +95,7 @@ const Sidebar = () => {
                             </span>
                         </li>
                     </HashLink>
-                    <HashLink to={"/Else/About"}>
+                    <HashLink to={"/Else/About"} onClick={handelClick}>
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-circle-exclamation" />
