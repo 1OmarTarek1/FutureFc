@@ -92,6 +92,24 @@ const mostPopularData =  [ //MOST-POPULAR-DATA-CARD
         download    :  "6.3M"                 ,
         to_path     :  "/Else/Teams/T_2014"
     },
+    { //CARD-07
+        id          :  "most_popular_item_6"  , 
+        image       :  popular_06             , 
+        title       :  "صعود 2014"                ,      
+        category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
+        rate        :  "4.8"                  , 
+        download    :  "6.3M"                 ,
+        to_path     :  "/Else/Teams/T_2014"
+    },
+    { //CARD-08
+        id          :  "most_popular_item_7"  , 
+        image       :  popular_06             , 
+        title       :  "صعود 2014"                ,      
+        category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
+        rate        :  "4.8"                  , 
+        download    :  "6.3M"                 ,
+        to_path     :  "/Else/Teams/T_2014"
+    },
 
 ]
 

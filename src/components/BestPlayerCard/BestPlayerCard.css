@@ -2,9 +2,9 @@
     flex: 1 20%;
     padding: 10px;
     margin-bottom: 1%;
-    background-color: var(--container-bg-color);
-    border: 1px solid var(--body-bg-color);
-    border-radius: 10px;
+    background-color: var(--body-bg-color);
+    border: 1px solid var(--container-bg-color);
+    /* border-radius: 10px; */
     cursor: default;
     transition: all .3s;
 } 
@@ -31,7 +31,7 @@
 .playerCard .playerImg-wrapper img{
     width: 100%;
     height: auto;
-    border-radius: 3px 3px 0 0;
+    /* border-radius: 3px 3px 0 0; */
     filter: brightness(80%);
     transition: all .3s;
 }

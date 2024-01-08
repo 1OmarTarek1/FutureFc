@@ -10,3 +10,10 @@
     font-size: 36px;
     font-weight: var(--font-weight-bold);
 }
+
+@media ( max-width: 565px ){
+    .section-wrapper{
+        background-color: var(--container-bg-color);
+        padding: 20px 10px 10px 10px;
+    }
+}

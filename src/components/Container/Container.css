@@ -10,15 +10,13 @@
     max-width: unset;
     padding-top: 0;
     padding-bottom: 0;
-    /* width: 100% !important; */
-    /* padding: 15px; */
 }
 
-/* 
-@media (  min-width: 576px  ){
-    .container {
-        max-width: unset;
-        padding-top: 0;
-        padding-bottom: 0;
+@media ( max-width: 565px ){
+    .main-container:has(.homePage) {
+        background-color: var(--body-bg-color);
+        padding: 10px;
     }
-} */
+}
+
+

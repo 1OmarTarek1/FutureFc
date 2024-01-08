@@ -27,7 +27,10 @@ margin-left: 20px;
 }
 
 @media screen and (max-width:1200px){
-
+    .newsTwo {
+        background-color: var(--body-bg-color);
+        margin-left: 0px;
+    }
     .newsTwo .how-start-live {
         background-color: transparent;
         width: 100%;

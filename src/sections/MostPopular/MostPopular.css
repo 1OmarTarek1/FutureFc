@@ -1,5 +1,6 @@
 .mostNews{
     margin-bottom: var(--margin-primary);
+    position: relative;
 }
 
 .mostNews .section-wrapper{
@@ -39,7 +40,7 @@
      grid-area: up; 
      height: 420px;
     }
-
+    
 /*Third & Fourth ( News )*/
 .down {
     display: grid; 
@@ -127,35 +128,47 @@
         align-items: center;
         flex-direction: column;
         gap: 20px;
-     }
+    }
 }
 
 @media screen and (max-width:767px){
-
-.mostNews .this-div{
-    max-height: 850px;
-    overflow-y: scroll;
-    justify-content: flex-start;
-}
-.mostNews .this-div::-webkit-scrollbar{
-    width: 0;
+    
+    /* .mostNews .this-div{
+        max-height: 850px;
+        overflow-y: scroll;
+        justify-content: flex-start;
+    } 
+    .mostNews .this-div::-webkit-scrollbar{
+        width: 0;
+    }*/
+    .mostNews .left{
+        margin-bottom: 25px;
 }
 
 /*First News*/
 .firstNews {
-display: flex; 
-flex-direction: column;
+    display: flex; 
+    flex-direction: column;
 }
 
-    .down{
-        display: flex;
-        flex-direction: column;
+.down{
+    display: flex;
+    flex-direction: column;
+}
+.media-title div h4 svg{
+    width: 40px;
+}
+}
+@media screen and (max-width:565px){
+    .mostNews .section-wrapper{
+        background-color: var(--container-bg-color);
+        padding: 0px 10px 10px 10px;
     }
-    .media-title div h4 svg{
-        width: 40px;
+
+    .mostNews .media-title div h4{
+        margin: 10px 0; 
     }
 }
-
 @media screen and (max-width:500px){
 
     .this-div p{

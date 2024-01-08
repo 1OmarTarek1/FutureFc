@@ -27,10 +27,10 @@ const MostPopular = () =>{
                             </div>
                             <div className="down">
                                 <div className="left" >
-                                    <FourthNews />
+                                    <ThirdNews /> 
                                 </div>
                                 <div className="right" >
-                                    <ThirdNews />                                       
+                                    <FourthNews />                                    
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const MostPopular = () =>{
                     <Link 
                         to="/News" 
                         className='sec-color'>
-                        المزيد من الاخبار
+                            المزيد  
                     </Link>
                 </PrimaryBtn>
             </div>           

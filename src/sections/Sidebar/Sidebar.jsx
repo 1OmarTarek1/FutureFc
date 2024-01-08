@@ -54,8 +54,8 @@ const Sidebar = () => {
                             <img className='img-fluid' src={profileImg} alt="" />
                         </div>
                         <div className="profileTxt">
-                            <span className='name'>Omar Tarek</span>
-                            <span className='caption'>Caption Here.</span>
+                            <span className='name'>عمر طارق</span>
+                            <span className='caption'>الوصف هنا.</span>
                         </div>
                     </div>
                 </HashLink>
@@ -67,7 +67,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-house" />
-                                <span>Home</span>
+                                <span>الرئيسية</span>
                             </span>
                         </li>
                     </HashLink>
@@ -75,7 +75,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-regular fa-newspaper" />
-                                <span>Exclusive News</span>
+                                <span>الاخبار الحصرية</span>
                             </span>
                         </li>
                     </HashLink>
@@ -83,7 +83,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-calendar-days" />
-                                <span>Training Time</span>
+                                <span>مواعيد التدريب</span>
                             </span>
                         </li>
                     </HashLink>
@@ -91,7 +91,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-user-plus" />
-                                <span>Subscribe</span>
+                                <span>الاشتراكات</span>
                             </span>
                         </li>
                     </HashLink>
@@ -99,7 +99,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-circle-exclamation" />
-                                <span>About Us</span>
+                                <span>من نحن</span>
                             </span>
                         </li>
                     </HashLink>
@@ -107,7 +107,7 @@ const Sidebar = () => {
                         <li className="item">
                             <span>
                                 <i className="fa-solid fa-gear" />
-                                <span>Settings</span>
+                                <span>الاعدادات</span>
                             </span>
                         </li>
                     </HashLink>
@@ -117,13 +117,13 @@ const Sidebar = () => {
                     <div className="item out" onClick={handelClick}>
                         <span>
                             <i className="fa-solid fa-arrow-right-from-bracket" />
-                            <span>Logout</span>
+                            <span>خروج</span>
                         </span>
                     </div>
                     <div className="item style d-flex justify-content-between">
                         <span>
-                            <i className="fa-solid fa-paintbrush fa-rotate-270"/>
-                            <span>Theme</span>
+                            <i className="fa-solid fa-paintbrush"/>
+                            <span>الوضع</span>
                         </span>
                         <Themes />
                     </div>
@@ -131,7 +131,7 @@ const Sidebar = () => {
                 
             </div>
             <div className={ activeSpan ? 'sidebarBtn priBtn' : 'sidebarBtn'} onClick={handelClick}>
-                <i className={ activeSpin ? 'fa-solid fa-list fa-fade' : 'fa-solid fa-list'} />
+                <i className={ activeSpin ? 'fa-solid fa-list fa-rotate-180 fa-fade' : 'fa-solid fa-list fa-rotate-180'} />
             </div>
         </div>
         </>

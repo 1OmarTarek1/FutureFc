@@ -2,10 +2,9 @@
     direction: rtl;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 0px;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    /* gap: 1%; */
 }
 
 /* .most-live-items .just-for-pop{

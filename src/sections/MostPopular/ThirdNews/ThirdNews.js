@@ -19,7 +19,9 @@ const thirdNews = () =>{
     }) 
     return(
         <>
+        <div className='homeThirdNews'>
             {cards[0]}
+        </div>
         </>
     )
 }

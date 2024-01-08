@@ -1,0 +1,8 @@
+.homeThirdNews .most-card .card-wrapper{
+    width: 100%;
+}
+.homeThirdNews .most-card{
+    flex: 1 100%;
+    max-width: 100%;
+    margin: 0;
+}

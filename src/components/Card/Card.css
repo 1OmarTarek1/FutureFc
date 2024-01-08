@@ -1,22 +1,17 @@
-.most-card{
-    display: flex;
-    width: fit-content;
-    height: fit-content;
-}
-
 .most-card .card-wrapper{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 ;
     background-color: var(--body-bg-color);
     border-radius:calc( var(--border-radius-primary) / 2);
     padding: calc(var(--padding-primary) / 2);
     border: 1px solid var(--container-bg-color);
     transition: .2s all;
-    margin: 0;
     cursor: default;
 }
+
+.most-card{
+    flex: 0 24%;
+    margin: 5px;
+}
+
 
 
 .most-card .card-wrapper:hover{
@@ -33,7 +28,6 @@
     width: fit-content;
     height: fit-content;
     margin-bottom: 8px;
-    /* overflow: hidden; */
 }
 
 .most-card .most-popular-item-image{
@@ -61,9 +55,7 @@
     transition: all .3s;
     font-size: 13px;
 }
-/* .most-card .card-wrapper .cardContent p:hover{
-    color: #fff;
-} */
+
 
 
 .most-card .card-wrapper .cardContent h6{
@@ -170,30 +162,35 @@
 
 
 @media screen and (max-width:1199px) {
-    .most-card .card-wrapper{
-        width: 390px;
+    .most-card{
+        flex: 1 24%;
+        max-width: 300px;
     }
 }
 @media screen and (max-width:992px) {
-    .most-card .card-wrapper{
-        width: 270px;
+    .most-card{
+        flex: 1 49%;
+        max-width: 100%;
+        margin: 3px;
     }
 }
 
 @media screen and (max-width:767px) {
     .most-card{
-        flex: 0 1 100%;
+        flex: 1 49%;
+        max-width: 100%;
+        margin: 2px;
     }
-
-    .most-card .card-wrapper{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
 }
 
 
-@media screen and (max-width:515px) {
+@media screen and (max-width:675px) {
+    .most-card{
+        flex: 1 100%;
+        max-width: 100%;
+        margin: 0px;
+        margin-bottom: 30px;
+    }
     .most-card .card-wrapper .secondaryBtn span a{
         font-size: 11px;
     }
