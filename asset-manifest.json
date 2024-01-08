@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FutureFc/static/css/main.f022bd15.css",
-    "main.js": "/FutureFc/static/js/main.5b495a88.js",
+    "main.css": "/FutureFc/static/css/main.3bebf66e.css",
+    "main.js": "/FutureFc/static/js/main.99e34ff6.js",
     "static/media/realTeam.jpg": "/FutureFc/static/media/realTeam.ba793f405ec9d64c0671.jpg",
     "static/media/slide-3.jpg": "/FutureFc/static/media/slide-3.c3417b5a2b767c4808f3.jpg",
     "static/media/slide-2.jpg": "/FutureFc/static/media/slide-2.c3417b5a2b767c4808f3.jpg",
@@ -32,7 +32,6 @@
     "static/media/2009.jpg": "/FutureFc/static/media/2009.07d9e3fcc9e2e06b7c94.jpg",
     "static/media/popular-01.jpg": "/FutureFc/static/media/popular-01.07d9e3fcc9e2e06b7c94.jpg",
     "static/media/coach-04.jpg": "/FutureFc/static/media/coach-04.974a54205d8ef3521683.jpg",
-    "static/media/videoImg.jpg": "/FutureFc/static/media/videoImg.9b4024e65bfb33f975db.jpg",
     "static/media/player-03.jpg": "/FutureFc/static/media/player-03.bb03cb4b56c80558ebba.jpg",
     "static/media/mdb-react-ui-kit.cjs": "/FutureFc/static/media/mdb-react-ui-kit.82d9bb4b87305ae7306f.cjs",
     "static/media/phoenix-03.jpg": "/FutureFc/static/media/phoenix-03.4026cf6be3f713170652.jpg",
@@ -54,11 +53,11 @@
     "static/media/slick.ttf": "/FutureFc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/FutureFc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FutureFc/index.html",
-    "main.f022bd15.css.map": "/FutureFc/static/css/main.f022bd15.css.map",
-    "main.5b495a88.js.map": "/FutureFc/static/js/main.5b495a88.js.map"
+    "main.3bebf66e.css.map": "/FutureFc/static/css/main.3bebf66e.css.map",
+    "main.99e34ff6.js.map": "/FutureFc/static/js/main.99e34ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f022bd15.css",
-    "static/js/main.5b495a88.js"
+    "static/css/main.3bebf66e.css",
+    "static/js/main.99e34ff6.js"
   ]
 }
