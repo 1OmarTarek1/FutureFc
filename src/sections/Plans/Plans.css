@@ -1,5 +1,6 @@
 .connectPage .plansAll{
     margin-bottom: calc(var(--margin-primary) + 20px);
+    background-color: var(--container-bg-color);
 } 
 .connectPage .plansAll:active{
     cursor: grab;

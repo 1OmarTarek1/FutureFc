@@ -1,15 +1,17 @@
 import './Training.css'
-import {  TopStreamers, MostPopularLiveStream, TrainTime } 
-from '../../sections'
+import { MostPopularLiveStream, TrainTime, AboutCoaches } from '../../sections'
+
 
 
 
 const Training = () =>{
     return(
     <>
-        <MostPopularLiveStream />
-        <TopStreamers />
-        <TrainTime />
+        <div className='trainingPage'>
+            <AboutCoaches />
+            <MostPopularLiveStream />
+            <TrainTime />
+        </div>
     </>
     )
 }

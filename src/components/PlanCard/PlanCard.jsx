@@ -24,18 +24,8 @@ const PlanCard = ( props ) => {
                         {props.trainsNumCost} 
                     </span>
                 </li>
-                <li>
-                    <i className="fa-solid fa-check" />
-                    <div className='catchOutfit'>
-                        {props.outfit}
-                    </div>
-                </li>
-                <li>
-                    <i className="fa-solid fa-check" />
-                    <div className='catchTrophy'>
-                        {props.trophy}
-                    </div>
-                </li>
+                <li> { props.outfit } </li>
+                <li> { props.trophy } </li>
             </ul>
 
             <SecondaryBtn>

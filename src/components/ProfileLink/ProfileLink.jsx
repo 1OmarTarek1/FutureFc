@@ -46,9 +46,9 @@ const ProfileLink = () => {
     return (
     <>
         <div className='fatherProfile d-flex gap-2'>
-            <span className="d-flex gap-1" style={{ marginRight:"10px", position: "absolute", top: "60px", fontSize:"10px"}}>
-                <button className='ON' style={{padding:"0", borderRadius:"50%", width:"25px", height:"25px", border:"none", backgroundColor:"#333", color:"#888"}} >On</button>
-                <button className='OFF'style={{padding:"0", borderRadius:"50%", width:"25px", height:"25px", border:"none", backgroundColor:"#333", color:"#888"}} >Off</button>
+            <span className="d-flex gap-2" style={{ marginRight:"0px", position: "absolute", top: "165px",right:"-21px", fontSize:"10px", flexDirection:"column",opacity:".8"}}>
+                <button className='ON' style={{padding:"0", width:"30px", height:"30px", border:"none", backgroundColor:"#333", color:"#888"}} >On</button>
+                <button className='OFF'style={{padding:"0", width:"30px", height:"30px", border:"none", backgroundColor:"#333", color:"#888"}} >Off</button>
             </span>
 
             <NavLink to="Profile" className="profileLink">

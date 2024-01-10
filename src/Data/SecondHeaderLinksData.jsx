@@ -60,10 +60,10 @@ const SecondHeaderLinksData = {
 
     TrainingPage : [
 
-        { // BestPlayers
-            KeyID     :  "NewsPage-BestPlayers" , 
-            txt       :  "افضل اللاعبين"        ,
-            scrollTo  :  "#BestPlayers"         ,
+        { // Coaches
+            KeyID     :  "NewsPage-Coaches" , 
+            txt       :  "المدربين"        ,
+            scrollTo  :  "#Coaches"         ,
         },
 
         { // TrainingPlan

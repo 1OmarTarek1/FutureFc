@@ -1,7 +1,7 @@
 .players{
     direction: rtl;
 }
-.players .section-wrapper{
+.players .section-wrapper .bestPlayersCards{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +10,11 @@
 }
 
 @media screen and (max-width:575px) {
-    .players .section-wrapper{
+    .players .section-wrapper  .bestPlayersCards{
         height: 850px;
         overflow-y: scroll;
+    }
+    .players .section-wrapper  .bestPlayersCards::-webkit-scrollbar{
+        width: 0;
     }
 }

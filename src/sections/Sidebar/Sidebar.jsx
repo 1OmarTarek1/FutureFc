@@ -46,7 +46,7 @@ const Sidebar = () => {
 
     return (
         <>
-        <div className={ activeSideBar ? 'sidebar activeSideBar' : 'sidebar' }>
+        <div className={ activeSideBar ? 'sidebar activeSideBar' : 'sidebar' } >
             <div className='sidebar-content'>
                 <HashLink to={"/Profile"} onClick={handelClick}>
                     <div className="profileAccount">

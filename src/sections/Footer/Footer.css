@@ -28,7 +28,7 @@
     .footer .accordion-borderless 
     .accordion-item 
     .accordion-button:not(.collapsed){
-        background-color: var(--color-darkest);
+        background-color:transparent;
         color: var(--color-light-dark);
     }
     .footer .accordion-button::after{

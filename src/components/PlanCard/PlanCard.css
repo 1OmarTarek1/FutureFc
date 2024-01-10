@@ -122,14 +122,14 @@
 
 /*Styled Active Plan*/
 .connectPage .activePlan{
-    transform: translateY(-20px) scale(1.05);
+    transform: translateY(-15px) scale(1.05);
     box-shadow: 0px 20px 25px -6px #000000a6;
     border:1px solid var(--color-light) !important;
     cursor: default !important;
     filter: blur(0);
 }
 .connectPage .activePlan:hover{
-    transform: translateY(-20px) scale(1.05);
+    transform: translateY(-15px) scale(1.05);
 }
 .connectPage .plan:not( .activePlan ){
     filter: blur(1px);

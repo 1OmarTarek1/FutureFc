@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 0;
+    gap: 7px;
 }
 
 
@@ -11,9 +12,8 @@
 
 
 .coaches .nav-item{
-    /* flex: 1 1 auto; */
-    width: 25%;
-    padding: 10px;
+    flex: 1 ;
+    width: 24%;
 }
 .coaches .nav-link{
     padding: 0;
@@ -50,7 +50,7 @@
     margin-bottom: 0;
     font-size: 14px;
     line-height: 1.5rem;
-    background-color: var(--body-bg-color);
+    background-color: var(--container-bg-color);
     transition: all .3s;
 }
 /*hover effect*/
@@ -88,9 +88,6 @@
     /* .coaches .nav-item{
         width: 50%;
     } */
-    .coaches .nav-item{
-        padding: 5px;
-    }
     .coachCard .title{
         height: 35px;
         font-size: 14px;
@@ -106,9 +103,6 @@
     /* .coaches .nav-item{
         width: 100%;
     } */
-    .coaches .nav-item{
-        padding: 5px;
-    }
     .coachCard .title{
         height: 25px;
         font-size: 11px;

@@ -73,7 +73,9 @@
     color: var(--color-light-dark);
 }
 .allContentPlans .trainingDays .nav-link:hover {
-    background-color: #333;
+    background-color: transparent;
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
 }
 .allContentPlans .trainingDays .active {
     background-color: transparent;

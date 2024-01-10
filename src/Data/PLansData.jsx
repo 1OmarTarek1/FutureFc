@@ -62,15 +62,21 @@ const PlansData = [
         cost          :  Plan_Salary_01            ,
         trainsNumCost :  monthTxt                  , 
         outfit        : <>
-                            <del>
-                                {icnT}
-                                {txtOutfitLi}
-                            </del>
+                            <i className="fa-solid fa-xmark" style={{color:"red"}} />
+                            <div className='catchOutfit'>
+                                <del>
+                                    {icnT}
+                                    {txtOutfitLi}
+                                </del>
+                            </div>
                         </>,                
         trophy        : <>
+                            <i className="fa-solid fa-xmark" style={{color:"red"}} />
                             <del>
-                                {icnTro}
-                                {txtTrophyLi}
+                                <div className='catchTrophy'>
+                                    {icnTro}
+                                    {txtTrophyLi}
+                                </div>
                             </del>   
                         </>           
     },
@@ -84,17 +90,23 @@ const PlansData = [
         cost          :   Plan_Salary_02    ,
         trainsNumCost :   halfMonthTxt      , 
         outfit        : <>
-                            <del>
-                                {icnT}
-                                {txtOutfitLi}
-                            </del>
-                        </>,                
+                            <i className="fa-solid fa-xmark" style={{color:"red"}} />
+                            <div className='catchOutfit'>
+                                <del>
+                                    {icnT}
+                                    {txtOutfitLi}
+                                </del>
+                            </div>
+                        </>,                 
         trophy        : <>
+                            <i className="fa-solid fa-xmark" style={{color:"red"}} />
                             <del>
-                                {icnTro}
-                                {txtTrophyLi}
+                                <div className='catchTrophy'>
+                                    {icnTro}
+                                    {txtTrophyLi}
+                                </div>
                             </del>   
-                        </>  
+                        </>    
     },
 
 
@@ -106,17 +118,23 @@ const PlansData = [
         cost          :   Plan_Salary_03        ,
         trainsNumCost :   monthTxt              , 
         outfit        : <>
-                            <span>
-                                {icnT}
-                                {txtOutfitLi}
-                            </span>
-                        </>,                
+                            <i className="fa-solid fa-check" />
+                            <div className='catchOutfit'>
+                                <span>
+                                    {icnT}
+                                    {txtOutfitLi}
+                                </span>
+                            </div>
+                        </>,                 
         trophy        : <>
+                            <i className="fa-solid fa-xmark" style={{color:"red"}} />
                             <del>
-                                {icnTro}
-                                {txtTrophyLi}
+                                <div className='catchTrophy'>
+                                    {icnTro}
+                                    {txtTrophyLi}
+                                </div>
                             </del>   
-                        </>     
+                        </>  
     },
 
 
@@ -128,12 +146,16 @@ const PlansData = [
         cost          :   Plan_Salary_04           ,
         trainsNumCost :   monthTxt                 , 
         outfit        : <>
-                            <span>
-                                {icnT}
-                                {txtOutfitLi}
-                            </span>
-                        </>,                
+                            <i className="fa-solid fa-check" />
+                            <div className='catchOutfit'>
+                                <span>
+                                    {icnT}
+                                    {txtOutfitLi}
+                                </span>
+                            </div>
+                        </>,               
         trophy        : <>
+                            <i className="fa-solid fa-check" />
                             <span>
                                 {icnTro}
                                 {txtTrophyLi}

@@ -21,9 +21,11 @@ const Players = () => {
 return (
     <>
     <div className='players' id='PlayersGo' style={{marginTop:"var(--margin-primary)"}}>
-    <SectionHeader>انتقالات اللاعبين</SectionHeader>
     <SectionWrapper>
-        {cards}
+        <SectionHeader>انتقالات اللاعبين</SectionHeader>
+        <div className='bestPlayersCards'>
+            {cards}
+        </div>
     </SectionWrapper>
     </div>
     </>

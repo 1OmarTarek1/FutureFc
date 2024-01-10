@@ -9,10 +9,40 @@
     margin: 0;
 }
 
+.trainingPage .aboutCoaches .section-wrapper{
+    display: none;
+}
 
 
 @media screen and (max-width:992px){
     .Streams-and-Streamers{
         flex-direction: column  ;
     }     
+}
+@media screen and (max-width: 767px) {
+    .trainingPage .coachCard .about-coach {
+    display: flex;
+    }   
+    .trainingPage .coachCard img {
+        display: flex ;
+    }
+    .trainingPage .coaches{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .trainingPage .coaches .nav-item {
+        width: 100%;
+    }
+    .trainingPage .coachCard .about-coach  {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 20px; */
+    }
+    .trainingPage .coachCard .title{
+        font-size: 15px;
+        height: 40px;
+        font-weight: normal;
+    }
 }
