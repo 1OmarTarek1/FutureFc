@@ -169,6 +169,58 @@ const SecondHeaderLinksData = {
             scrollTo  :  "#TrainingTime"                ,
         },
     ],
+
+
+    NewsCardPage : [
+
+        { // News2009
+            KeyID     :  "NewsCardPage-News2009" , 
+            txt       :  "2009"        ,
+            scrollTo  :  "#News2009"               ,
+        },
+
+        { // News2010
+            KeyID     :  "NewsCardPage-News2010" , 
+            txt       :  "2010"     ,
+            scrollTo  :  "#News2010"        ,
+        },
+
+        { // News2011
+            KeyID     :  "NewsCardPage-News2011" , 
+            txt       :  "2011"       ,
+            scrollTo  :  "#News2011"                ,
+        },
+
+        { // News2012
+            KeyID     :  "NewsCardPage-News2012" , 
+            txt       :  "2012"       ,
+            scrollTo  :  "#News2012"                ,
+        },
+
+        { // News2013
+            KeyID     :  "NewsCardPage-News2013" , 
+            txt       :  "2013"       ,
+            scrollTo  :  "#News2013"                ,
+        },
+
+        { // News2014
+            KeyID     :  "NewsCardPage-News2014" , 
+            txt       :  "2014"       ,
+            scrollTo  :  "#News2014"                ,
+        },
+
+        { // News2015
+            KeyID     :  "NewsCardPage-News2015" , 
+            txt       :  "2015"       ,
+            scrollTo  :  "#News2015"                ,
+        },
+
+        { // News2016
+            KeyID     :  "NewsCardPage-News2016" , 
+            txt       :  "2016"       ,
+            scrollTo  :  "#News2016"                ,
+        },
+    ],
 }
 
 export default SecondHeaderLinksData

@@ -1,0 +1,50 @@
+.teamCardNews {
+    /* direction: rtl;
+    display: flex;
+    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+    scroll-behavior: smooth;
+}
+.teamCardNews .most-card {
+    flex: 100% ;
+}
+.teamCardNews .most-card .card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.teamCardNews .most-card .img-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100% ;
+    height: 600px;
+    overflow: hidden;
+}
+.teamCardNews .most-card .img-wrapper img{
+    height: auto;
+}
+.teamCardNews .most-card .secondaryBtn{
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .teamCardNews .most-card {
+        max-width: 100%;
+    }
+
+    .teamCardNews .most-card .img-wrapper{
+        /* height: 100%; */
+    }
+} 
+@media screen and (max-width: 767px) {
+    .teamCardNews .most-card {
+        max-width: 100%;
+    }
+
+    .teamCardNews .most-card .img-wrapper{
+        height: 100%;
+    }
+} 
+

@@ -62,7 +62,15 @@ const SecondHeader = () => {
                     scrollTo = { LiLink.scrollTo }
             />
         })    
-}
+    }
+    else if ( location === "/News/TeamsCardNews") {
+        AllLinks = SecondHeaderLinksData.NewsCardPage.map(LiLink => {
+            return <SecHeaderLink key={ LiLink.KeyID }
+                    txt      = { LiLink.txt      }
+                    scrollTo = { LiLink.scrollTo }
+            />
+        })    
+    }
     else return <></>;
 
     return (

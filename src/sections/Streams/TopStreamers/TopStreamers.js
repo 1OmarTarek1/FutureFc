@@ -57,7 +57,7 @@ const cards = TopStreamersData.map(card => {
 
     return(
         <>
-        <div className='TopStreamers-page'>
+        <div className='TopStreamers-page' id="BestPlayers">
         <SectionHeader>
             <span className='related-title'>
                 <span>افضل</span> <em>اللاعبين</em>

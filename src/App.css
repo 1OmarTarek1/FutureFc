@@ -85,7 +85,7 @@
 
 html{
     scroll-behavior: smooth !important;
-    scroll-padding-top: 100px;
+    scroll-padding-top: 70px;
 }
 
 *,::after,::before { box-sizing: border-box ; }

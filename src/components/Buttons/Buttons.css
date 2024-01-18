@@ -5,7 +5,7 @@
     font-size: 14px;
     border-radius: var(--border-radius-primary);
     padding: 8px 30px;
-    font-weight: var(--font-weight-bold);
+    /* font-weight: var(--font-weight-bold); */
     transition: all .3s;
     cursor: pointer;
 }

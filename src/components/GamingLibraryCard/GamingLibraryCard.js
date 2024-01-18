@@ -14,7 +14,7 @@ const GamingLibraryCard = (props) => {
             <li className='btn-li'>                            
                     <SecondaryBtn>
                         <Link className='path-over pri-color' to={props.to_path}>
-                            انضم 
+                            الفريق 
                         </Link>
                     </SecondaryBtn>
                 </li>
@@ -27,7 +27,7 @@ const GamingLibraryCard = (props) => {
                             <div className='btn-li media-small-btn'>
                                 <SecondaryBtn>
                                     <Link className='path-over' to={props.to_path}>
-                                        انضم
+                                        الفريق
                                     </Link>
                                 </SecondaryBtn>
                             </div>

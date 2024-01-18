@@ -37,6 +37,7 @@ import {
         Training,
         About,
         Contact, 
+        TeamsCardNews,
     }   from './Pages/index'
 import { Container, UpButton } from './components/index'
 import './App.css';
@@ -79,7 +80,9 @@ const App = () => {
                     <Routes>
                         <Route     path = '/'             element = {<  Home     />}  />
                         <Route     path = '/Profile'      element = {<  Profile  />}  />
-                        <Route     path = '/News'         element = {<  News     />}  />
+
+                        <Route     path = '/News'         element = {<  News     />}   />
+                        <Route     path = '/News/TeamsCardNews' element = {<  TeamsCardNews />}   />
 
                         <Route     path = '/Else'>
                             <Route path ='/Else/Teams'>
@@ -90,8 +93,9 @@ const App = () => {
                             <Route      path = '/Else/About'        element = {<   About  />} />
                         </Route>
 
-                        <Route    path = '/Training'     element = {<  Training    />}   />
-                        <Route    path = '/Contact'      element = {<  Contact     />}   />
+                        <Route    path = '/Training'      element = {<  Training      />}   />
+                        <Route    path = '/Contact'       element = {<  Contact       />}   />
+
                     </Routes>
                 </Container>
 

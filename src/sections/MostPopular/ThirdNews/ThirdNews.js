@@ -15,6 +15,7 @@ const thirdNews = () =>{
         rate        =   {  card.rate      } 
         download    =   {  card.download  } 
         to_path     =   {  card.to_path   } 
+        newsPath    =   {  card.newsPath  }
         />
     }) 
     return(

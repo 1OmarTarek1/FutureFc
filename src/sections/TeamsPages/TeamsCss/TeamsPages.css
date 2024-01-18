@@ -10,7 +10,7 @@
     height: 450px;
     margin-bottom: var(--margin-primary);
     overflow: hidden;
-    border: 7px solid var(--body-bg-color);
+    border: 7px solid var(--container-bg-color);
 }
 .teamSection .img-wrapper img{
     width: 100%;

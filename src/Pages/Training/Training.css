@@ -27,11 +27,13 @@
         display: flex ;
     }
     .trainingPage .coaches{
-        flex-direction: column;
-        gap: 30px;
+        /* flex-direction: row; */
+        /* gap: 30px; */
     }
     .trainingPage .coaches .nav-item {
-        width: 100%;
+        flex: 1 49%;
+
+        /* width: 100%; */
     }
     .trainingPage .coachCard .about-coach  {
         font-size: 14px;

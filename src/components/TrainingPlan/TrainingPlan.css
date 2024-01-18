@@ -18,7 +18,6 @@
     margin-bottom: -10px;
 }
 .most-pop-live .trainingPlans li a{
-    font-weight: bold;
     padding: 10px 20px;
     color: var(--color-light);
     background-color: var(--color-primary);

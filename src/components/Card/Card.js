@@ -1,11 +1,12 @@
 import './Card.css'
 import { Link } from 'react-router-dom'
 import { SecondaryBtn } from '../../components/index'
+import { HashLink } from 'react-router-hash-link'
 
 
 const  Card = (props) =>{
     return(
-            <div    className='just-for-pop  most-card'>
+            <div className='just-for-pop  most-card' id={props.idLocation}>
 
                     <div className='card-wrapper'>
                         <div className='img-wrapper'>
@@ -21,7 +22,7 @@ const  Card = (props) =>{
                             </p>
                         </div>
                         <SecondaryBtn>
-                            <Link to={props.to_path}>الفريق</Link>
+                            <HashLink to={props.newsPath}>المزيد</HashLink>
                         </SecondaryBtn>                                  
                     </div>
             </div>

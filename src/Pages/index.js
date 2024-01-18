@@ -7,10 +7,13 @@ export {default as T_2010}  from './Else/Teams/T-2010/T-2010'
 export {default as T_2011}  from './Else/Teams/T-2011/T-2011'
 
 
-export {default as News}    from './News/News'
-export {default as Training}     from './Training/Training'
+export {default as News}      from './News/News'
+export {default as Training}  from './Training/Training'
 export {default as About}     from './Else/About/About'
-export {default as Contact}     from './Contact/Contact'
+export {default as Contact}   from './Contact/Contact'
+
+
+export {default as TeamsCardNews}   from './News/TeamsCardNews/TeamsCardNews'
 
 
 

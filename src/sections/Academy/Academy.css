@@ -23,7 +23,7 @@
     align-items: center;
     padding-bottom: 10px;
     margin-bottom: 30px;
-    border-bottom: 1px solid var(--color-dark);
+    border-bottom: 1px solid var(--body-bg-color);
     transition: all .3s;
     
 }
@@ -68,7 +68,7 @@
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid var(--color-dark);
+    border: 5px solid var(--body-bg-color);
 }
 .academy .imgs img{
     width: 100%;

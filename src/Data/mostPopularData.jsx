@@ -22,7 +22,7 @@ import avatar_04 from '../assets/images/avatar-04.jpg'
 
 
 
-
+let cardNewsPath = "/News/TeamsCardNews";
 
 
 
@@ -30,85 +30,101 @@ const mostPopularData =  [ //MOST-POPULAR-DATA-CARD
 
     { //CARD-01
         id          :  "most_popular_item_0"   , 
+        idLocation  :  "News2009",
         image       :  popular_01              , 
         title       :  "فوز فريق 2009"              , 
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "3.8"                   , 
         download    :  "2.3M"                  ,
-        to_path     :  "/Else/Teams/T_2009"    
+        to_path     :  "/Else/Teams/T_2009"    , 
+        newsPath    :  "/News/TeamsCardNews#News2009"  
     },
 
 
     { //CARD-02
         id          :  "most_popular_item_1"  , 
+        idLocation  :  "News2010",
         image       :  popular_02             , 
         title       :  "تكريم 2010"                 ,     
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "4.8"                  , 
         download    :  "4.3M"                 ,
-        to_path     :  "/Else/Teams/T_2010"
+        to_path     :  "/Else/Teams/T_2009"   , 
+        newsPath    :  "/News/TeamsCardNews#News2010"  
     },
 
 
     { //CARD-03
         id          :  "most_popular_item_2"      , 
+        idLocation  :  "News2011",
         image       :  popular_03                 , 
         title       :  "صعود 2011"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "2.7"                      , 
         download    :  "3.2M"                     ,
-        to_path     :  "/Else/Teams/T_2011"    
+        to_path     :  "/Else/Teams/T_2011"       , 
+        newsPath    :  "/News/TeamsCardNews#News2011"   
     },
         
 
     { //CARD-04
         id          :  "most_popular_item_3"  , 
+        idLocation  :  "News2012",
         image       :  popular_04             , 
         title       :  "صعود 2012"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "3.9"                  , 
         download    :  "1.1M"                 ,
-        to_path     :  "/Else/Teams/T_2012" 
+        to_path     :  "/Else/Teams/T_2011"   , 
+        newsPath    :  "/News/TeamsCardNews#News2012"
     },
 
 
     { //CARD-05
         id          :  "most_popular_item_4"  , 
+        idLocation  :  "News2013",
         image       :  popular_05             , 
         title       :  "صعود 2013"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "3.8"                  , 
         download    :  "3.1M"                 ,
-        to_path     :  "/Else/Teams/T_2013" 
+        to_path     :  "/Else/Teams/T_2011"   , 
+        newsPath    :  "/News/TeamsCardNews#News2013"  
     },
 
 
     { //CARD-06
         id          :  "most_popular_item_5"  , 
+        idLocation  :  "News2014",
         image       :  popular_06             , 
         title       :  "صعود 2014"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "4.8"                  , 
         download    :  "6.3M"                 ,
-        to_path     :  "/Else/Teams/T_2014"
+        to_path     :  "/Else/Teams/T_2014"   , 
+        newsPath    :  "/News/TeamsCardNews#News2014"  
     },
     { //CARD-07
         id          :  "most_popular_item_6"  , 
+        idLocation  :  "News2015",
         image       :  popular_06             , 
         title       :  "صعود 2014"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "4.8"                  , 
         download    :  "6.3M"                 ,
-        to_path     :  "/Else/Teams/T_2014"
+        to_path     :  "/Else/Teams/T_2014"       , 
+        newsPath    :  "/News/TeamsCardNews#News2015"  
     },
     { //CARD-08
         id          :  "most_popular_item_7"  , 
+        idLocation  :  "News2016",
         image       :  popular_06             , 
         title       :  "صعود 2014"                ,      
         category    :  "بعض الاخبار الحصرية عن الاكاديمية ومعلومات عن مواعيد التدريب وكل ما يخص الافريق بجميع المواليد . بعض الاخبار الحصرية عن الاكاديمية ومعلومات   " ,   
         rate        :  "4.8"                  , 
         download    :  "6.3M"                 ,
-        to_path     :  "/Else/Teams/T_2014"
+        to_path     :  "/Else/Teams/T_2014"   , 
+        newsPath    :  "/News/TeamsCardNews#News2016"  
     },
 
 ]

@@ -65,6 +65,10 @@
     color: var(--color-light-dark);
     font-size: 14px;
 }
+.gaming-library-item ul .secondaryBtn a{
+    padding: 7px  20px;
+    font-size: 13px;
+}
 
 
 .G-L-I-img{
