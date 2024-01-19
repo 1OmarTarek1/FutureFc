@@ -1,20 +1,27 @@
 .players{
     direction: rtl;
 }
-.players .section-wrapper .bestPlayersCards{
+
+/* .players .section-wrapper .bestPlayersCards{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1%;
+} */
+.players .slick-dots {
+    bottom: -32px !important;
 }
 
 @media screen and (max-width:575px) {
-    .players .section-wrapper  .bestPlayersCards{
+    /* .players .section-wrapper  .bestPlayersCards{
         height: 850px;
         overflow-y: scroll;
     }
     .players .section-wrapper  .bestPlayersCards::-webkit-scrollbar{
         width: 0;
+    } */
+    .players .slick-dots {
+        bottom: -8px !important;
     }
 }
