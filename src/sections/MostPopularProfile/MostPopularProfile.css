@@ -1,3 +1,6 @@
+.profileMainPage{
+    direction: rtl;
+}
 .most-profile-items{
     display: flex;
     justify-content: center;
@@ -32,13 +35,12 @@
 }
 
 .profileMainPage .section-wrapper{
-    margin-bottom: 80px;
+    margin-bottom: var(--margin-primary);
 }
 
 @media screen and (max-width:767px) {
     .clips-title{
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;

@@ -1,6 +1,6 @@
 
 import { ProfileStream } from '../../sections/'
-import { MostPopularProfileCard, SectionHeader, SectionWrapper, PrimaryBtn } from '../../components/index'
+import { MostPopularProfileCard, SectionHeader, SectionWrapper } from '../../components/index'
 import   MostPopularProfileData from '../../Data/MostPopularProfileData'
 
 import './MostPopularProfile.css'
@@ -21,7 +21,8 @@ const cards = MostPopularProfileData.map(card => {
             <SectionWrapper>
                 <SectionHeader>
                     <span className='clips-title'>
-                        Your Most Popular <em>Clips</em> 
+                        اهم البطولات 
+                        <em> الفردية </em> 
                     </span>
                 </SectionHeader>
 
@@ -29,11 +30,6 @@ const cards = MostPopularProfileData.map(card => {
                     {cards}
                 </div>
 
-                <div className='btn-load'>
-                    <PrimaryBtn>
-                        Load More Clips
-                    </PrimaryBtn>
-                </div>
             </SectionWrapper>         
         </div>
         </>

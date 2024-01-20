@@ -18,14 +18,6 @@ const ProfileStream = () => {
                 <div className='cover-pro'>
                     <div className='cover'>
                         <img  src={Cover} alt=''   /> 
-                        {/* <form id='importCvForm'>
-                            <input className='upload upload-cover' name='datafile' type='file' />
-                            <input 
-                            className='upload save-cover' 
-                            value='Save' 
-                            onClick= {importCoverImg}
-                            type='button' />
-                        </form> */}
                     </div>
                     <div className='all-profile'>
                             <div className='profile'>

@@ -106,11 +106,20 @@ const Sidebar = () => {
                     <HashLink to={"#!"}>
                         <li className="item">
                             <span>
+                                <i className="fa-regular fa-circle-question" />
+                                <span>المساعدة</span>
+                            </span>
+                        </li>
+                    </HashLink>
+                    <HashLink to={"#!"}>
+                        <li className="item">
+                            <span>
                                 <i className="fa-solid fa-gear" />
                                 <span>الاعدادات</span>
                             </span>
                         </li>
                     </HashLink>
+
                 </ul>
 
                 <div className="sideBarFooter">

@@ -9,13 +9,14 @@
     flex-direction: column;
     gap: 10px;
     justify-content:space-between ;
-    border-bottom: 2px solid var(--color-dark) ;
+    border-bottom: 2px solid var(--container-bg-color) ;
     direction: rtl;
     
 }
 
 .profile-top-side .cover-pro {
     position: relative;
+    height: 495px;
 }
 .profile-top-side .cover-pro .cover{
     width: 100%;
@@ -138,6 +139,8 @@
 .boxes{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7px;
     margin-bottom: var(--margin-primary);
 }
 
@@ -145,17 +148,25 @@
 
 
 .right-content{
+    flex: 1;
     position: relative;
     top: 20px;
     min-width: 30%;
     padding: 0px 0px;
     height: fit-content;
+    border: 1px solid var(--body-bg-color);
     border-radius: var(--border-radius-primary);
-    background-color: var(--color-darkest);
+    /* background-color: var(--color-darkest); */
+    transition: all .3s;
+}
+.right-content:hover{
+    border-top-color:  var(--color-primary);
+    border-bottom-color: var(--color-primary);
+
 }
 .container-right-content{
-
-    padding: 10px 30px;
+    padding: 10px 15px;
+    background-color: var(--container-bg-color);
 }
 
 .right-content .itm{
@@ -163,7 +174,7 @@
     justify-content: space-between;
     align-items: center;
     padding:  21px 0px;
-    font-size: 14px;
+    font-size: 13px;
     color: var(--color-light-dark);
     border-bottom: 1px solid var(--color-light-dark);
     cursor: default;
@@ -195,20 +206,20 @@
 @media screen and (max-width:992px){
 
     .profile-top-side{
-       flex-direction: column;
+        flex-direction: column; 
     }
-    .boxes{
-        display: flex;
-        flex-direction: column;
-        gap:20px;
-        justify-content: space-between;
+    .profile-top-side .right-content{
+        flex: 1;
     }
     
 }
 
 
 @media screen and (max-width:767px){
-    
+    .profile-top-side .cover-pro {
+        position: relative;
+        height: 555px;
+    }
     .profile-top-side .cover-pro .cover {
         height: 300px;
     }
@@ -248,12 +259,21 @@
         width: 130px;
         height: 130px;
     }
+
+    .profile-top-side .right-content{
+        flex: 1 49%;
+        /* max-width: 50%; */
+    }
     
     
     
 }
 
 @media screen and (max-width:550px){
+    .profile-top-side .cover-pro {
+        position: relative;
+        height: 490px;
+    }
     .profile-top-side .cover-pro .cover {
         height: 230px;
     }
@@ -265,6 +285,10 @@
     .profile-top-side .all-profile .profile img{
         width: 100px;
         height: 100px;
+    }
+    .profile-top-side .right-content{
+        flex: 1 100%;
+        /* max-width: 50%; */
     }
 }
 @media screen and (max-width:400px){

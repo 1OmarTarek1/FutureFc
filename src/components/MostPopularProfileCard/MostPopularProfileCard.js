@@ -27,10 +27,10 @@ const  MostPopularProfileCard = (props) =>{
 
                         <ul>
                             <li>
+                                <span> {props.view} </span>
                                 <span style={{"color":"var(--color-primary)"}}>
                                     <FaEye  style={{"fontSize":"19px"}}/>
                                 </span> 
-                                <span> {props.view}</span>
                             </li>
                         </ul>
 

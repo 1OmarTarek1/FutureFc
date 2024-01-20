@@ -1,7 +1,4 @@
-.team-subscribe .section-wrapper{
-    height: 550px;
-    overflow-y: scroll;
-}
+
 
 
 .subs{
@@ -14,12 +11,25 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--color-dark);
-    padding:calc(var(--padding-primary) - 20px) 0px ;
+    /* background-color: var(--body-bg-color); */
+    border-bottom: 1px solid var(--container-bg-color);
+    padding: 20px 0;
     margin-bottom: 0;
     cursor: default;
     transition: .4s;
 }
+.team-subscribe .gaming-library-cards  {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--body-bg-color);
+    padding-inline: 20px;
+    height: 550px;
+    overflow-y: scroll;
+}
+.team-subscribe .gaming-library-cards::-webkit-scrollbar  {
+    width: 2px;
+}
+
 
 .subs ul:hover{
     border-color: var(--color-primary);
@@ -101,10 +111,6 @@
 
 @media screen and (max-width:992px){
 
-    .team-subscribe .section-wrapper{
-        height: 800px;
-        overflow-y: scroll;
-    }
 
     .subs ul .btn-li{
         display: none;

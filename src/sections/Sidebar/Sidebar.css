@@ -100,7 +100,7 @@
 .sidebar .sideBarItems{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -108,9 +108,9 @@
 .sidebar .item{
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 45px;
     padding-inline: 15px;
-    font-size: 14px;
+    font-size: 13px;
     /* border-bottom: ; */
     background-color: var(--container-bg-color);
     color: var(--color-light);
@@ -127,7 +127,7 @@
 .sidebar .sideBarFooter{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
     padding-top: 10px;
     border-top: 1px solid var(--header-text-color);
 }
